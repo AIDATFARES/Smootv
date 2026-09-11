@@ -17,7 +17,7 @@ export default function TVMockup() {
             height={1000}
             priority
             sizes="(max-width: 1024px) 100vw, 60vw"
-            src="/bunnystream-iptv-transparent.webp"
+            src="/area69iptv-devices-mockup.webp"
             width={1800}
           />
         </div>
