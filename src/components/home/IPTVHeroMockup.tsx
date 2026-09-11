@@ -47,6 +47,7 @@ export default function IPTVHeroMockup() {
             src="/hero-player-screen.webp"
             alt="area69iptv Live Broadcast Stream"
             fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 620px"
             className="object-cover object-center brightness-95 group-hover:scale-105 transition-transform duration-700"
             priority
           />

@@ -134,6 +134,8 @@ export default function WebPlayerMockup() {
                 src="/web-player-screen.webp"
                 alt="area69iptv Web Player Stream"
                 fill
+                sizes="(max-width: 640px) 340px, (max-width: 1024px) 480px, 600px"
+                loading="lazy"
                 className="object-cover object-center brightness-95 group-hover/screen:scale-105 transition-transform duration-700"
               />
 
