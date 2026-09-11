@@ -53,7 +53,7 @@ const creditPlans: CreditPlan[] = [
 ];
 
 const planFeatures = [
-  "1 Credit = 1 Month StrimoIPTV Subscription",
+  "1 Credit = 1 Month area69iptv Subscription",
   "Free Trial Creation Everyday",
   "Custom Channel Category Groups",
   "Pay-As-You-Go Credit System",
@@ -67,7 +67,7 @@ const advantages = [
     icon: ShoppingCart,
     title: "UNIVERSAL COMPATIBILITY",
     description:
-      "StrimoIPTV reseller streams work seamlessly on Smart TVs, Firestick, Android Box, MAG, Apple TV, iOS, and PC.",
+      "area69iptv reseller streams work seamlessly on Smart TVs, Firestick, Android Box, MAG, Apple TV, iOS, and PC.",
   },
   {
     icon: Server,
@@ -93,12 +93,12 @@ const resellerFaqs = [
   {
     question: "DOES THE CONTROL PANEL EXPIRE?",
     answer:
-      "No, your StrimoIPTV reseller control panel access remains active permanently, and your credit balance never expires.",
+      "No, your area69iptv reseller control panel access remains active permanently, and your credit balance never expires.",
   },
   {
     question: "CAN I RENEW A CLIENT SUBSCRIPTION?",
     answer:
-      "Yes! You can extend or renew any client subscription directly from your StrimoIPTV reseller dashboard with a single click.",
+      "Yes! You can extend or renew any client subscription directly from your area69iptv reseller dashboard with a single click.",
   },
   {
     question: "CAN I MODIFY CLIENT LINES OR PLAYLIST FORMATS?",
@@ -131,8 +131,8 @@ export default function ResellerPageContent() {
 
   const handleOrderPanel = (plan?: CreditPlan) => {
     const message = plan
-      ? `Hello! I would like to order the StrimoIPTV Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
-      : `Hello! I am interested in becoming a StrimoIPTV Reseller and would like to request panel access.`;
+      ? `Hello! I would like to order the area69iptv Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
+      : `Hello! I am interested in becoming an area69iptv Reseller and would like to request panel access.`;
     window.open(
       `https://wa.me/447882781998?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -141,7 +141,7 @@ export default function ResellerPageContent() {
   };
 
   const handleFreeTrial = () => {
-    const message = `Hello! I am interested in testing a StrimoIPTV Reseller Panel demo account.`;
+    const message = `Hello! I am interested in testing an area69iptv Reseller Panel demo account.`;
     window.open(
       `https://wa.me/447882781998?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -157,11 +157,11 @@ export default function ResellerPageContent() {
         <header className="relative mx-auto max-w-4xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-cyan-400">
             <Sparkles className="h-3.5 w-3.5" />
-            STRIMOIPTV RESELLER PROGRAM
+            AREA69IPTV RESELLER PROGRAM
           </span>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            STRIMOIPTV <br />
+            AREA69IPTV <br />
             <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">
               RESELLER PANEL
             </span>
@@ -189,7 +189,7 @@ export default function ResellerPageContent() {
               Reseller <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Credit Packages</span>
             </h2>
             <p className="mt-3 text-base text-[#A7B0C0]">
-              High profit margins with non-expiring credits and automated StrimoIPTV panel activation.
+              High profit margins with non-expiring credits and automated area69iptv panel activation.
             </p>
           </div>
 
@@ -258,7 +258,7 @@ export default function ResellerPageContent() {
         {/* ADVANTAGES OF IPTV RESELLER */}
         <div className="mt-28">
           <h2 className="text-center text-3xl sm:text-5xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            Why Partner with <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">StrimoIPTV?</span>
+            Why Partner with <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">area69iptv?</span>
           </h2>
 
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -287,7 +287,7 @@ export default function ResellerPageContent() {
         {/* RESELLER FAQ */}
         <div className="mx-auto mt-28 max-w-4xl">
           <h2 className="text-center text-3xl sm:text-4xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            StrimoIPTV Reseller <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">FAQ</span>
+            area69iptv Reseller <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">FAQ</span>
           </h2>
 
           <div className="mt-10 space-y-3">
@@ -327,7 +327,7 @@ export default function ResellerPageContent() {
               onClick={() => handleOrderPanel()}
               className="btn-primary-strimo px-10 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2"
             >
-              <span>Become StrimoIPTV Reseller</span>
+              <span>Become area69iptv Reseller</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

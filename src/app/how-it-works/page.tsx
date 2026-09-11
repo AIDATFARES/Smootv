@@ -3,8 +3,8 @@ import Link from "next/link";
 import { PlayCircle, ShieldCheck, Zap, Phone, MonitorSmartphone, Globe2, CheckCircle2, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "How It Works | StrimoIPTV Setup & Activation Guide",
-  description: "Learn how easy it is to set up and start streaming with StrimoIPTV. Our simple 3-step process gets you watching 4K live TV and VOD in minutes.",
+  title: "How It Works | area69iptv Setup & Activation Guide",
+  description: "Learn how easy it is to set up and start streaming with area69iptv. Our simple 3-step process gets you watching 4K live TV and VOD in minutes.",
   alternates: {
     canonical: "/how-it-works",
   },
@@ -23,13 +23,13 @@ export default function HowItWorksPage() {
             SIMPLE IPTV SETUP GUIDE
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-[#F8FAFC] tracking-tight leading-[1.1] mb-6">
-            Start Streaming StrimoIPTV in <br />
+            Start Streaming area69iptv in <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400">
               Under 5 Minutes
             </span>
           </h1>
           <p className="text-[#A7B0C0] text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-            We've made cord-cutting effortless. No technical skills required, no hardware installations, and zero contract commitments. Choose a <Link href="/pricing" className="text-cyan-400 hover:underline font-bold">StrimoIPTV plan</Link>, connect your app, and access over <Link href="/channels" className="text-cyan-400 hover:underline font-bold">50,000 live channels</Link> instantly.
+            We've made cord-cutting effortless. No technical skills required, no hardware installations, and zero contract commitments. Choose an <Link href="/pricing" className="text-cyan-400 hover:underline font-bold">area69iptv plan</Link>, connect your app, and access over <Link href="/channels" className="text-cyan-400 hover:underline font-bold">50,000 live channels</Link> instantly.
           </p>
         </div>
       </section>
@@ -39,11 +39,11 @@ export default function HowItWorksPage() {
         <HowItWorksSection />
       </div>
 
-      {/* Why Choose StrimoIPTV - Pill Grid */}
+      {/* Why Choose area69iptv - Pill Grid */}
       <section className="py-20 bg-[#080B14]/80 text-[#F8FAFC] relative z-10 border-t border-white/[0.06]">
         <div className="max-w-[1000px] mx-auto px-6 text-center">
           <h2 className="text-2xl md:text-4xl font-black tracking-tight mb-10 text-[#F8FAFC]">
-            Why Choose <span className="text-cyan-400">StrimoIPTV</span>?
+            Why Choose <span className="text-cyan-400">area69iptv</span>?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
@@ -98,7 +98,7 @@ export default function HowItWorksPage() {
       <section className="py-24 relative z-10 border-t border-white/[0.06] bg-[#0D111B] text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-black text-[#F8FAFC] mb-6 tracking-tight">
-            Ready to Start Streaming with StrimoIPTV?
+            Ready to Start Streaming with area69iptv?
           </h2>
           <p className="text-[#A7B0C0] text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto">
             Join thousands of satisfied cord-cutters worldwide. Get instant access to 50,000+ live IPTV channels, 200,000+ films, and premium 4K sports coverage.
@@ -109,11 +109,11 @@ export default function HowItWorksPage() {
               href="/pricing" 
               className="btn-primary-strimo w-full sm:w-auto px-8 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center justify-center gap-2"
             >
-              <span>View All StrimoIPTV Plans</span>
+              <span>View All area69iptv Plans</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
             <a 
-              href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20StrimoIPTV." 
+              href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20area69iptv." 
               target="_blank"
               rel="noreferrer"
               className="btn-secondary-strimo w-full sm:w-auto px-8 py-4 text-xs font-bold uppercase tracking-wider flex items-center justify-center"

@@ -20,7 +20,7 @@ export default function FinalCtaSection() {
             </h2>
 
             <p className="text-base sm:text-xl text-[#A7B0C0] mt-6 max-w-2xl mx-auto leading-relaxed">
-              Join thousands of satisfied StrimoIPTV subscribers watching live sports, movies, and TV shows in 4K HDR. Instant account activation in under 3 minutes.
+              Join thousands of satisfied area69iptv subscribers watching live sports, movies, and TV shows in 4K HDR. Instant account activation in under 3 minutes.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mt-10">
@@ -28,12 +28,12 @@ export default function FinalCtaSection() {
                 href="#pricing"
                 className="btn-primary-strimo px-9 py-4 text-sm font-extrabold uppercase tracking-wider flex items-center gap-2"
               >
-                <span>Get StrimoIPTV Access</span>
+                <span>Get area69iptv Access</span>
                 <ArrowRight className="w-4.5 h-4.5" />
               </a>
 
               <a
-                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20StrimoIPTV."
+                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20area69iptv."
                 target="_blank"
                 rel="noreferrer"
                 className="btn-secondary-strimo px-9 py-4 text-sm font-semibold flex items-center gap-2"

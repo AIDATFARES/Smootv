@@ -16,7 +16,7 @@ export default function PricingSection() {
         "1 Device Connection",
         "Instant Email & WhatsApp Setup",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20StrimoIPTV%201-Month%20Plan%20($14.99).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%201-Month%20Plan%20($14.99).",
     },
     {
       name: "3 Months",
@@ -33,7 +33,7 @@ export default function PricingSection() {
         "Instant Email & WhatsApp Setup",
         "7-Day Money Back Guarantee",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20StrimoIPTV%203-Month%20Plan%20($35.00).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%203-Month%20Plan%20($35.00).",
     },
     {
       name: "6 Months",
@@ -50,7 +50,7 @@ export default function PricingSection() {
         "Instant Email & WhatsApp Setup",
         "VIP Priority Support 24/7",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20StrimoIPTV%206-Month%20Plan%20($49.99).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%206-Month%20Plan%20($49.99).",
     },
     {
       name: "1 Year",
@@ -69,7 +69,7 @@ export default function PricingSection() {
         "Free EPG Guide Updates",
         "VIP Priority Support 24/7",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20StrimoIPTV%201-Year%20Most%20Popular%20Plan%20($69.99).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%201-Year%20Most%20Popular%20Plan%20($69.99).",
     },
     {
       name: "2 Years",
@@ -87,7 +87,7 @@ export default function PricingSection() {
         "Free Adult Content Switch",
         "Lifetime VIP Technical Support",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20StrimoIPTV%202-Year%20Best%20Value%20Plan%20($120.00).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%202-Year%20Best%20Value%20Plan%20($120.00).",
     },
   ];
 
@@ -99,10 +99,10 @@ export default function PricingSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-blue-500/10 text-cyan-400 border border-cyan-500/20 mb-4">
             <Zap className="w-3.5 h-3.5" />
-            <span>FLEXIBLE STRIMOIPTV SUBSCRIPTIONS</span>
+            <span>FLEXIBLE AREA69IPTV SUBSCRIPTIONS</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
-            Choose Your <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">StrimoIPTV Plan</span>
+            Choose Your <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">area69iptv Plan</span>
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
             Transparent pricing options with instant automated activation, 50,000+ live channels, 200,000+ VODs, and zero contract commitments.
@@ -171,13 +171,13 @@ export default function PricingSection() {
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-base font-bold text-white">100% Risk-Free StrimoIPTV Guarantee</h4>
+              <h4 className="text-base font-bold text-white">100% Risk-Free area69iptv Guarantee</h4>
               <p className="text-xs text-[#A7B0C0] mt-0.5">Enjoy premium 4K IPTV streaming or request assistance from our 24/7 technical team within 7 days.</p>
             </div>
           </div>
 
           <a
-            href="https://wa.me/447882781998?text=Hello,%20I%20have%20a%20question%20about%20StrimoIPTV%20pricing."
+            href="https://wa.me/447882781998?text=Hello,%20I%20have%20a%20question%20about%20area69iptv%20pricing."
             target="_blank"
             rel="noreferrer"
             className="btn-secondary-strimo px-6 py-2.5 text-xs whitespace-nowrap"

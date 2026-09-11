@@ -6,7 +6,7 @@ export default function FeaturesSection() {
     {
       icon: Tv,
       title: "50,000+ IPTV Channels",
-      description: "Access over 50,000 live international IPTV channels and 200,000 VOD movies updated daily with StrimoIPTV.",
+      description: "Access over 50,000 live international IPTV channels and 200,000 VOD movies updated daily with area69iptv.",
       accent: "from-blue-500 to-cyan-500",
       link: "/channels",
       linkText: "View Channels Lineup",
@@ -30,7 +30,7 @@ export default function FeaturesSection() {
     {
       icon: Monitor,
       title: "Universal Device Support",
-      description: "Watch StrimoIPTV effortlessly on Smart TVs, Firestick, Android, iOS, Windows PC, Mac, and MAG boxes.",
+      description: "Watch area69iptv effortlessly on Smart TVs, Firestick, Android, iOS, Windows PC, Mac, and MAG boxes.",
       accent: "from-blue-500 to-indigo-500",
       link: "/installation",
       linkText: "Setup Guides",
@@ -38,7 +38,7 @@ export default function FeaturesSection() {
     {
       icon: Sparkles,
       title: "Instant Account Activation",
-      description: "Receive your automated StrimoIPTV login credentials delivered instantly via email & WhatsApp within seconds.",
+      description: "Receive your automated area69iptv login credentials delivered instantly via email & WhatsApp within seconds.",
       accent: "from-cyan-400 to-blue-500",
       link: "/pricing",
       linkText: "Instant Order",
@@ -54,7 +54,7 @@ export default function FeaturesSection() {
     {
       icon: Globe,
       title: "Global Unrestricted Streaming",
-      description: "Stream your favorite international TV channels and sports anywhere in the world with StrimoIPTV.",
+      description: "Stream your favorite international TV channels and sports anywhere in the world with area69iptv.",
       accent: "from-indigo-500 to-cyan-400",
       link: "/channels",
       linkText: "Explore Lineup",
@@ -76,13 +76,13 @@ export default function FeaturesSection() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-blue-500/10 text-cyan-400 border border-cyan-500/20 mb-4">
-            <span>WHY CHOOSE STRIMOIPTV</span>
+            <span>WHY CHOOSE AREA69IPTV</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             Engineered for <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Ultimate IPTV Entertainment</span>
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
-            Discover why thousands of households choose StrimoIPTV for high-speed, buffer-free global television streaming and 4K cinema.
+            Discover why thousands of households choose area69iptv for high-speed, buffer-free global television streaming and 4K cinema.
           </p>
         </div>
 

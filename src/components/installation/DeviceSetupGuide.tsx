@@ -17,7 +17,7 @@ const faqs = [
   { question: "1. How do I install IPTV on a Smart TV?", answer: "Install a compatible player such as Smart IPTV or IPTV Smarters from your TV's app store, then add the M3U URL or Xtream credentials from your welcome email." },
   { question: "2. Where do I find my M3U URL?", answer: "Your M3U URL is included in the welcome email sent after activation. Contact support on WhatsApp if you need it resent." },
   { question: "3. How can I reduce buffering?", answer: "Use a stable internet connection, restart your device and router, and select an appropriate quality setting for your connection." },
-  { question: "4. How do I set up StrimoIPTV using Xtream Codes API?", answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." },
+  { question: "4. How do I set up area69iptv using Xtream Codes API?", answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." },
   { question: "5. Can I connect using a MAC address (Portal URL)?", answer: "Yes. MAG and compatible portal devices can be activated using their MAC address. Send it to our support team for assistance." },
 ];
 
@@ -35,7 +35,7 @@ export default function DeviceSetupGuide() {
         <h1 className="text-3xl font-black tracking-tight text-[#F8FAFC] sm:text-5xl">
           Device Setup <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">Instructions</span>
         </h1>
-        <p className="mt-4 text-base sm:text-lg text-[#A7B0C0]">Select your device below for step-by-step StrimoIPTV installation instructions.</p>
+        <p className="mt-4 text-base sm:text-lg text-[#A7B0C0]">Select your device below for step-by-step area69iptv installation instructions.</p>
       </header>
 
       {/* Device Selector Buttons */}
@@ -70,7 +70,7 @@ export default function DeviceSetupGuide() {
           </div>
           <div>
             <h2 className="text-2xl font-black text-[#F8FAFC] sm:text-3xl">{device.title}</h2>
-            <p className="mt-1 text-[#A7B0C0] text-sm">Follow these steps to configure your {device.label} for StrimoIPTV.</p>
+            <p className="mt-1 text-[#A7B0C0] text-sm">Follow these steps to configure your {device.label} for area69iptv.</p>
           </div>
         </div>
         
@@ -92,7 +92,7 @@ export default function DeviceSetupGuide() {
           </SetupStep>
           
           <SetupStep number="2" title="Configure Playlist">
-            Launch the app, open its Settings menu, and enter the M3U URL or Xtream Codes credentials supplied in your welcome email after ordering your <Link href="/pricing" className="text-cyan-400 hover:underline font-bold">StrimoIPTV subscription</Link>.
+            Launch the app, open its Settings menu, and enter the M3U URL or Xtream Codes credentials supplied in your welcome email after ordering your <Link href="/pricing" className="text-cyan-400 hover:underline font-bold">area69iptv subscription</Link>.
             <div className="mt-4">
               <CodeLine label="M3U URL" text="Use the secure playlist URL from your welcome email" />
             </div>
@@ -119,7 +119,7 @@ export default function DeviceSetupGuide() {
           ))}
         </div>
         <div className="mt-8 text-center text-xs text-[#A7B0C0]">
-          Have more questions? Read our full <Link href="/faq" className="text-cyan-400 hover:underline font-bold">FAQ Knowledge Base</Link> or <Link href="/contact" className="text-cyan-400 hover:underline font-bold">Contact StrimoIPTV Support</Link>.
+          Have more questions? Read our full <Link href="/faq" className="text-cyan-400 hover:underline font-bold">FAQ Knowledge Base</Link> or <Link href="/contact" className="text-cyan-400 hover:underline font-bold">Contact area69iptv Support</Link>.
         </div>
       </div>
     </section>

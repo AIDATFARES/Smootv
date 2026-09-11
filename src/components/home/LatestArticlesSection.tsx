@@ -15,13 +15,13 @@ export default function LatestArticlesSection() {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-4">
             <BookOpen className="w-3.5 h-3.5" />
-            <span>STRIMOIPTV GUIDES &amp; NEWS</span>
+            <span>AREA69IPTV GUIDES &amp; NEWS</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-[#F8FAFC] tracking-tight mb-4">
             Latest IPTV <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">Articles &amp; Tutorials</span>
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg">
-            Stay up to date with the latest StrimoIPTV guides, streaming optimization tips, and device installation insights.
+            Stay up to date with the latest area69iptv guides, streaming optimization tips, and device installation insights.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export default function LatestArticlesSection() {
                   <img
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt={post.title}
-                    src={post.coverImage || "/strimoiptv-best-iptv-service-buying-guide.webp"}
+                    src={post.coverImage || "/area69iptv-best-iptv-service-buying-guide.webp"}
                   />
                   <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-[#080B14] to-transparent"></div>
                   <span className="absolute top-4 left-4 px-3 py-1 bg-[#080B14]/80 backdrop-blur-md text-cyan-400 rounded-full text-xs font-extrabold border border-cyan-500/20">

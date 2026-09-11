@@ -36,7 +36,7 @@ export default function WebPlayerMockup() {
             </div>
             {/* Fake URL Bar */}
             <div className="w-full bg-[#111621] px-3 py-1 rounded-md text-[11px] font-mono text-[#667085] flex items-center gap-1.5 border border-white/5 truncate">
-              <span className="text-emerald-400 text-[10px]">https://</span>web.strimoiptv4k.shop/player
+              <span className="text-emerald-400 text-[10px]">https://</span>web.area69iptv4k.shop/player
             </div>
           </div>
 
@@ -132,7 +132,7 @@ export default function WebPlayerMockup() {
               {/* User Image Screen Content */}
               <Image
                 src="/web-player-screen.webp"
-                alt="StrimoIPTV Web Player Stream"
+                alt="area69iptv Web Player Stream"
                 fill
                 className="object-cover object-center brightness-95 group-hover/screen:scale-105 transition-transform duration-700"
               />

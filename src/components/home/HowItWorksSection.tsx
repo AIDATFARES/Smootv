@@ -4,7 +4,7 @@ export default function HowItWorksSection() {
   const steps = [
     {
       number: "01",
-      title: "Select Your StrimoIPTV Plan",
+      title: "Select Your area69iptv Plan",
       description: "Choose your preferred subscription tier (1, 3, 6, 12, or 24 Months) that best fits your household streaming needs.",
       icon: CreditCard,
     },
@@ -17,7 +17,7 @@ export default function HowItWorksSection() {
     {
       number: "03",
       title: "Start 4K Streaming",
-      description: "Log into your preferred player app (TiviMate, Smarters Pro, IBO) or StrimoIPTV Web Player and enjoy live TV instantly.",
+      description: "Log into your preferred player app (TiviMate, Smarters Pro, IBO) or area69iptv Web Player and enjoy live TV instantly.",
       icon: PlayCircle,
     },
   ];
@@ -32,7 +32,7 @@ export default function HowItWorksSection() {
             <span>SIMPLE 3-STEP SETUP</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
-            How <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">StrimoIPTV</span> Works
+            How <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">area69iptv</span> Works
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
             Fast, automated subscription setup with instant credentials delivery in under 3 minutes.

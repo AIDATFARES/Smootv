@@ -22,9 +22,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "StrimoIPTV | #1 Premium 4K IPTV Subscription Service 2026",
-  description: "Experience premium IPTV streaming with StrimoIPTV. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
-  metadataBase: new URL("https://www.strimoiptv4k.shop"),
+  title: "area69iptv | #1 Premium 4K IPTV Subscription Service 2026",
+  description: "Experience premium IPTV streaming with area69iptv. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
+  metadataBase: new URL("https://www.area69iptv4k.shop"),
   icons: {
     icon: "/icon.png",
     shortcut: "/icon.png",
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "StrimoIPTV | #1 Premium 4K IPTV Subscription Service 2026",
-    description: "Experience premium IPTV streaming with StrimoIPTV. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
-    url: "https://www.strimoiptv4k.shop",
-    siteName: "StrimoIPTV",
+    title: "area69iptv | #1 Premium 4K IPTV Subscription Service 2026",
+    description: "Experience premium IPTV streaming with area69iptv. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
+    url: "https://www.area69iptv4k.shop",
+    siteName: "area69iptv",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "StrimoIPTV | #1 Premium 4K IPTV Subscription Service 2026",
-    description: "Experience premium IPTV streaming with StrimoIPTV. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
+    title: "area69iptv | #1 Premium 4K IPTV Subscription Service 2026",
+    description: "Experience premium IPTV streaming with area69iptv. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
   },
 };
 
@@ -73,10 +73,10 @@ export default function RootLayout({
                   <BrandLogo />
                 </Link>
                 <p className="text-sm text-[#A7B0C0] max-w-sm leading-relaxed">
-                  StrimoIPTV is a leading global IPTV platform providing high-bitrate live television, 4K sports, and VOD entertainment with 99.9% server stability.
+                  area69iptv is a leading global IPTV platform providing high-bitrate live television, 4K sports, and VOD entertainment with 99.9% server stability.
                 </p>
                 <div className="pt-2 text-xs text-[#667085]">
-                  © 2026 STRIMOIPTV (www.strimoiptv4k.shop). All rights reserved.
+                  © 2026 area69iptv (www.area69iptv4k.shop). All rights reserved.
                 </div>
               </div>
 

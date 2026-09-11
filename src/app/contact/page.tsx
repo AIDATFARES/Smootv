@@ -7,10 +7,10 @@ export default function Contact() {
     <main className="flex-grow pt-28 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
         <span className="inline-block py-1.5 px-4 rounded-full bg-cyan-500/10 text-cyan-400 font-bold text-xs tracking-widest uppercase mb-6 border border-cyan-500/20">
-          24/7 STRIMOIPTV SUPPORT CENTER
+          24/7 AREA69IPTV SUPPORT CENTER
         </span>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-          Get in Touch with <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">StrimoIPTV</span>
+          Get in Touch with <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">area69iptv</span>
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#A7B0C0]">
           We are here to assist with subscription setup, device configuration, or channel inquiries. Send us a message and our technical team will respond quickly.
@@ -28,9 +28,9 @@ export default function Contact() {
             <p className="text-xs text-[#A7B0C0] mb-6">For general inquiries and account assistance.</p>
             <a
               className="text-cyan-400 font-bold text-sm hover:underline"
-              href="mailto:support@strimoiptv4k.shop"
+              href="mailto:support@area69iptv4k.shop"
             >
-              support@strimoiptv4k.shop
+              support@area69iptv4k.shop
             </a>
           </div>
 
@@ -44,7 +44,7 @@ export default function Contact() {
             </p>
             <a
               className="text-[#25D366] font-bold text-sm hover:underline flex items-center gap-1.5"
-              href="https://wa.me/447882781998?text=Hello,%20I%20need%20support%20for%20StrimoIPTV."
+              href="https://wa.me/447882781998?text=Hello,%20I%20need%20support%20for%20area69iptv."
               target="_blank"
               rel="noreferrer"
             >

@@ -15,7 +15,7 @@ export default function SportsSection() {
       name: "NBA Basketball",
       channel: "NBA League Pass 4K",
       badge: "ULTRA HD",
-      desc: "Stream all out-of-market games, court-side cameras, and play-by-play coverage with StrimoIPTV.",
+      desc: "Stream all out-of-market games, court-side cameras, and play-by-play coverage with area69iptv.",
       accent: "from-purple-600 via-blue-500 to-cyan-500",
       icon: "🏀",
     },
@@ -64,10 +64,10 @@ export default function SportsSection() {
             <span>LIVE IPTV SPORTS NETWORK</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
-            Stream Every <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">Game &amp; PPV Event</span> with StrimoIPTV
+            Stream Every <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">Game &amp; PPV Event</span> with area69iptv
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
-            StrimoIPTV gives you unlimited access to premium pay-per-view sports networks, regional sports passes, and international 4K tournament streams with zero add-on fees. Explore our full <Link href="/channels" className="text-cyan-400 hover:underline font-semibold">IPTV channel lineup</Link> or pick a <Link href="/pricing" className="text-cyan-400 hover:underline font-semibold">subscription package</Link>.
+            area69iptv gives you unlimited access to premium pay-per-view sports networks, regional sports passes, and international 4K tournament streams with zero add-on fees. Explore our full <Link href="/channels" className="text-cyan-400 hover:underline font-semibold">IPTV channel lineup</Link> or pick a <Link href="/pricing" className="text-cyan-400 hover:underline font-semibold">subscription package</Link>.
           </p>
         </div>
 

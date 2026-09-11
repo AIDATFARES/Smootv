@@ -17,7 +17,7 @@ type Plan = {
 };
 
 const commonFeatures = [
-  "StrimoIPTV subscription for {devices} Device{s}",
+  "area69iptv subscription for {devices} Device{s}",
   "Uncompressed Ultra HD & 4K Streaming",
   "50,000+ Premium Live International Channels",
   "200,000+ VOD Movies & Series (Daily Updates)",
@@ -95,7 +95,7 @@ export default function PricingPageContent() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the StrimoIPTV ${plan.name} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the area69iptv ${plan.name} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/447882781998?text=${text}`, "_blank", "noopener,noreferrer");
   }
@@ -113,10 +113,10 @@ export default function PricingPageContent() {
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-[#F8FAFC]">
-            STRIMOIPTV <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">SUBSCRIPTION PLANS</span>
+            AREA69IPTV <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">SUBSCRIPTION PLANS</span>
           </h1>
           <p className="mx-auto mt-6 text-base sm:text-lg text-[#A7B0C0] font-normal leading-relaxed max-w-2xl">
-            Choose your StrimoIPTV subscription plan. Enjoy bigger savings on 6-month and 12-month packages with simultaneous multi-device connection options.
+            Choose your area69iptv subscription plan. Enjoy bigger savings on 6-month and 12-month packages with simultaneous multi-device connection options.
           </p>
         </header>
 
@@ -229,7 +229,7 @@ export default function PricingPageContent() {
               <Gift className="h-5 w-5" />
             </div>
             <div>
-              <h3 className="text-base font-bold text-white uppercase">Want to test StrimoIPTV first?</h3>
+              <h3 className="text-base font-bold text-white uppercase">Want to test area69iptv first?</h3>
               <p className="text-xs text-[#A7B0C0]">Request a free trial pass to evaluate our 4K servers on your device.</p>
             </div>
           </div>

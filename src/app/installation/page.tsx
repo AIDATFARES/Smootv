@@ -3,8 +3,8 @@ import DeviceSetupGuide from "@/components/installation/DeviceSetupGuide";
 import { Clock3, Download, Headphones, Link2, Monitor, PlayCircle, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "StrimoIPTV Installation Guide | Smart TV, Firestick & Android Setup",
-  description: "Comprehensive step-by-step instructions to configure StrimoIPTV on Smart TVs, Firestick, Android, iOS, MAG, and Windows.",
+  title: "area69iptv Installation Guide | Smart TV, Firestick & Android Setup",
+  description: "Comprehensive step-by-step instructions to configure area69iptv on Smart TVs, Firestick, Android, iOS, MAG, and Windows.",
   alternates: {
     canonical: "/installation",
   },
@@ -17,19 +17,19 @@ export default function Installation() {
       <header className="mx-auto mb-16 max-w-3xl text-center sm:mb-20">
         <span className="inline-flex items-center gap-2 rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-cyan-400 mb-6">
           <Sparkles className="w-3.5 h-3.5" />
-          STRIMOIPTV INSTALLATION GUIDE
+          AREA69IPTV INSTALLATION GUIDE
         </span>
         
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-          StrimoIPTV <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">Installation &amp; Setup Guide</span>
+          area69iptv <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">Installation &amp; Setup Guide</span>
         </h1>
         
         <p className="mx-auto mt-5 max-w-2xl text-base sm:text-lg leading-relaxed text-[#A7B0C0]">
-          Comprehensive step-by-step instructions to configure your StrimoIPTV subscription on all major streaming devices.
+          Comprehensive step-by-step instructions to configure your area69iptv subscription on all major streaming devices.
         </p>
 
         <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#A7B0C0]">
-          StrimoIPTV works seamlessly on Smart TVs, Amazon Firestick, Android TV boxes, Apple TV, iOS, Windows, Mac, and MAG devices. New to StrimoIPTV? Explore our{" "}
+          area69iptv works seamlessly on Smart TVs, Amazon Firestick, Android TV boxes, Apple TV, iOS, Windows, Mac, and MAG devices. New to area69iptv? Explore our{" "}
           <Link className="font-bold text-cyan-400 hover:underline" href="/pricing">Pricing Plans</Link> or browse the{" "}
           <Link className="font-bold text-cyan-400 hover:underline" href="/channels">Channel List</Link> first.
         </p>
@@ -37,7 +37,7 @@ export default function Installation() {
         <div className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm font-bold text-[#A7B0C0]">
           <span className="inline-flex items-center gap-2"><Monitor className="h-4 w-4 text-cyan-400" />15+ Devices Supported</span>
           <span className="inline-flex items-center gap-2"><Clock3 className="h-4 w-4 text-cyan-400" />3–5 Minutes Setup</span>
-          <span className="inline-flex items-center gap-2"><Headphones className="h-4 w-4 text-cyan-400" />24/7 StrimoIPTV Support</span>
+          <span className="inline-flex items-center gap-2"><Headphones className="h-4 w-4 text-cyan-400" />24/7 area69iptv Support</span>
         </div>
       </header>
 
@@ -59,7 +59,7 @@ export default function Installation() {
               Download a compatible IPTV player application (such as TiviMate or IPTV Smarters Pro) on your streaming device.
             </QuickStartCard>
             <QuickStartCard icon={Link2} step="2" title="INPUT CREDENTIALS">
-              Input your StrimoIPTV M3U playlist link or Xtream Codes API credentials received via email or WhatsApp.
+              Input your area69iptv M3U playlist link or Xtream Codes API credentials received via email or WhatsApp.
             </QuickStartCard>
             <QuickStartCard icon={PlayCircle} step="3" title="START 4K STREAMING">
               Enjoy instant access to 50,000+ live channels, 4K movies, and premium live sports with zero buffering.
@@ -73,11 +73,11 @@ export default function Installation() {
 
       {/* Help Section */}
       <section className="strimo-card p-10 max-w-2xl mx-auto text-center rounded-3xl mt-16">
-        <h2 className="text-2xl font-black text-[#F8FAFC]">Need Help with StrimoIPTV Setup?</h2>
-        <p className="mt-2 text-sm text-[#A7B0C0]">Our dedicated technical support team is available 24/7 on WhatsApp to assist with your StrimoIPTV installation.</p>
+        <h2 className="text-2xl font-black text-[#F8FAFC]">Need Help with area69iptv Setup?</h2>
+        <p className="mt-2 text-sm text-[#A7B0C0]">Our dedicated technical support team is available 24/7 on WhatsApp to assist with your area69iptv installation.</p>
         <a 
           className="mt-6 btn-primary-strimo px-8 py-3.5 text-xs font-extrabold uppercase tracking-wider inline-flex items-center gap-2"
-          href="https://wa.me/447882781998?text=Hello,%20I%20need%20help%20setting%20up%20StrimoIPTV."
+          href="https://wa.me/447882781998?text=Hello,%20I%20need%20help%20setting%20up%20area69iptv."
           target="_blank"
           rel="noreferrer"
         >

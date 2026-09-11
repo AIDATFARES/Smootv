@@ -21,10 +21,10 @@ export default function DeviceSupport() {
             <span>UNIVERSAL IPTV COMPATIBILITY</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
-            Watch StrimoIPTV on <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">Any Device</span>
+            Watch area69iptv on <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">Any Device</span>
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
-            StrimoIPTV works seamlessly across all major operating systems, smart televisions, Firestick, and third-party IPTV player apps. View our detailed <Link href="/installation" className="text-cyan-400 hover:underline font-semibold">IPTV Installation Tutorials</Link>.
+            area69iptv works seamlessly across all major operating systems, smart televisions, Firestick, and third-party IPTV player apps. View our detailed <Link href="/installation" className="text-cyan-400 hover:underline font-semibold">IPTV Installation Tutorials</Link>.
           </p>
         </div>
 

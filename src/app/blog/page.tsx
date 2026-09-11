@@ -19,7 +19,7 @@ export default function Blog() {
           Latest News &amp; <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">Streaming Tips</span>
         </h1>
         <p className="text-base sm:text-lg text-[#A7B0C0] max-w-2xl">
-          Stay updated with 4K IPTV technology, channel setup guides, app tutorials, and streaming tips for StrimoIPTV.
+          Stay updated with 4K IPTV technology, channel setup guides, app tutorials, and streaming tips for area69iptv.
         </p>
       </header>
 

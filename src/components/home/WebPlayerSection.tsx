@@ -25,7 +25,7 @@ export default function WebPlayerSection() {
             </h2>
 
             <p className="text-base sm:text-lg text-[#A7B0C0] mt-6 leading-relaxed font-normal">
-              No downloads or <Link href="/installation" className="text-cyan-400 hover:underline font-semibold">app installations</Link> required. Simply log into our browser-based StrimoIPTV web player to access all <Link href="/channels" className="text-cyan-400 hover:underline font-semibold">50,000+ live IPTV channels</Link>, EPG guide, and VOD cinema library instantly on any PC, Mac, Laptop, or Tablet.
+              No downloads or <Link href="/installation" className="text-cyan-400 hover:underline font-semibold">app installations</Link> required. Simply log into our browser-based area69iptv web player to access all <Link href="/channels" className="text-cyan-400 hover:underline font-semibold">50,000+ live IPTV channels</Link>, EPG guide, and VOD cinema library instantly on any PC, Mac, Laptop, or Tablet.
             </p>
 
             {/* Bullet Points */}
@@ -53,7 +53,7 @@ export default function WebPlayerSection() {
             {/* Launch Button */}
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20test%20the%20StrimoIPTV%20Web%20Player."
+                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20test%20the%20area69iptv%20Web%20Player."
                 target="_blank"
                 rel="noreferrer"
                 className="btn-primary-strimo px-8 py-4 text-xs uppercase tracking-widest font-extrabold flex items-center gap-2.5 shadow-[0_0_25px_rgba(56,189,248,0.4)]"

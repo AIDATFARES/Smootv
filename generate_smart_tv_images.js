@@ -20,7 +20,7 @@ async function generateSmartTvImages() {
     <path d="M200 0 V630 M400 0 V630 M600 0 V630 M800 0 V630 M1000 0 V630" stroke="#1e293b" stroke-width="1" opacity="0.25"/>
 
     <rect x="80" y="60" width="200" height="36" rx="18" fill="#060810" stroke="#38bdf8" stroke-width="1.5"/>
-    <text x="180" y="83" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#38bdf8" text-anchor="middle" letter-spacing="2">STRIMO IPTV GUIDE</text>
+    <text x="180" y="83" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#38bdf8" text-anchor="middle" letter-spacing="2">AREA69IPTV GUIDE</text>
 
     <text x="80" y="160" font-family="system-ui, sans-serif" font-size="40" font-weight="900" fill="#ffffff">Best IPTV Apps for Smart TV in 2026</text>
     <text x="80" y="205" font-family="system-ui, sans-serif" font-size="22" font-weight="500" fill="#94a3b8">Samsung Tizen • LG webOS • Android TV &amp; Google TV</text>
@@ -74,7 +74,7 @@ async function generateSmartTvImages() {
 
   await sharp(Buffer.from(heroSvg))
     .webp({ quality: 90 })
-    .toFile('./public/strimoiptv-smart-tv-apps-hero.webp');
+    .toFile('./public/area69iptv-smart-tv-apps-hero.webp');
 
   // 2. Platform Comparison Infographic
   const platformSvg = `<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +149,7 @@ async function generateSmartTvImages() {
 
   await sharp(Buffer.from(platformSvg))
     .webp({ quality: 90 })
-    .toFile('./public/strimoiptv-smart-tv-platforms-comparison.webp');
+    .toFile('./public/area69iptv-smart-tv-platforms-comparison.webp');
 
   // 3. IPTV Workflow Diagram
   const workflowSvg = `<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
@@ -224,7 +224,7 @@ async function generateSmartTvImages() {
 
   await sharp(Buffer.from(workflowSvg))
     .webp({ quality: 90 })
-    .toFile('./public/strimoiptv-smart-tv-workflow-diagram.webp');
+    .toFile('./public/area69iptv-smart-tv-workflow-diagram.webp');
 
   // 4. Decision Guide
   const decisionSvg = `<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@ async function generateSmartTvImages() {
 
       <text x="24" y="85" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">• Fast login with Xtream Codes API username &amp; password</text>
       <text x="24" y="112" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">• Clearly separated Live TV, Movies &amp; Series sections</text>
-      <text x="24" y="139" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">• StrimoIPTV recommended primary beginner player</text>
+      <text x="24" y="139" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">• area69iptv recommended primary beginner player</text>
 
       <rect x="24" y="165" width="442" height="35" rx="8" fill="#1e293b"/>
       <text x="245" y="187" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#818cf8" text-anchor="middle">Recommended starting point for straightforward viewing</text>
@@ -296,7 +296,7 @@ async function generateSmartTvImages() {
 
   await sharp(Buffer.from(decisionSvg))
     .webp({ quality: 90 })
-    .toFile('./public/strimoiptv-smart-tv-player-decision-guide.webp');
+    .toFile('./public/area69iptv-smart-tv-player-decision-guide.webp');
 
   console.log('ALL 4 SMART TV WEBP IMAGES GENERATED SUCCESSFULLY!');
 }

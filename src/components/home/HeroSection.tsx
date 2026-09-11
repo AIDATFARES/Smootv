@@ -14,12 +14,12 @@ export default function HeroSection() {
             {/* Top Small Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold bg-blue-500/10 text-cyan-400 border border-cyan-500/20 mb-6 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
               <Zap className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
-              <span className="uppercase tracking-widest text-[11px]">STRIMOIPTV NEXT-GEN STREAMING NETWORK</span>
+              <span className="uppercase tracking-widest text-[11px]">AREA69IPTV NEXT-GEN STREAMING NETWORK</span>
             </div>
 
             {/* Main H1 Headline */}
             <h1 className="text-4xl sm:text-6xl lg:text-[68px] font-black tracking-tight leading-[1.05] text-[#F8FAFC]">
-              StrimoIPTV — Premium 4K IPTV Service Built for{" "}
+              area69iptv — Premium 4K IPTV Service Built for{" "}
               <span className="bg-gradient-to-r from-[#60A5FA] via-cyan-400 to-[#A78BFA] bg-clip-text text-transparent">
                 Live TV, Sports &amp; Cinema
               </span>
@@ -27,13 +27,13 @@ export default function HeroSection() {
 
             {/* Supporting Paragraph */}
             <p className="text-base sm:text-lg lg:text-xl text-[#A7B0C0] font-normal mt-6 max-w-[620px] leading-relaxed">
-              Experience high-performance IPTV streaming with StrimoIPTV. Access over <Link href="/channels" className="text-cyan-400 hover:underline font-semibold">50,000 live international channels</Link>, 200,000+ VOD movies, and high-bitrate live sports in ultra-crisp 4K/FHD with zero-freeze server stability.
+              Experience high-performance IPTV streaming with area69iptv. Access over <Link href="/channels" className="text-cyan-400 hover:underline font-semibold">50,000 live international channels</Link>, 200,000+ VOD movies, and high-bitrate live sports in ultra-crisp 4K/FHD with zero-freeze server stability.
             </p>
 
             {/* CTAs with Animations */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-9 w-full sm:w-auto">
               <a
-                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%2024-hour%20free%20trial%20for%20StrimoIPTV."
+                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%2024-hour%20free%20trial%20for%20area69iptv."
                 target="_blank"
                 rel="noreferrer"
                 className="btn-primary-strimo btn-shimmer-effect btn-pulse-glow px-8 py-4 text-xs sm:text-sm uppercase tracking-widest font-black flex items-center justify-center gap-2.5 group shadow-xl"
@@ -68,7 +68,7 @@ export default function HeroSection() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0" />
-                <Link href="/contact" className="hover:text-cyan-400 transition-colors">24/7 StrimoIPTV Support</Link>
+                <Link href="/contact" className="hover:text-cyan-400 transition-colors">24/7 area69iptv Support</Link>
               </div>
             </div>
 

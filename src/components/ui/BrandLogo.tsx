@@ -24,7 +24,7 @@ export default function BrandLogo({ compact = false }: BrandLogoProps) {
       {/* Brand Text */}
       <div className="flex items-center gap-1 leading-none">
         <span className="text-xl sm:text-2xl font-black tracking-tight text-[#F8FAFC]">
-          STRIMO<span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">IPTV</span>
+          area69<span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">iptv</span>
         </span>
       </div>
     </div>

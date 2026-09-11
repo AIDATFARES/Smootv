@@ -20,7 +20,7 @@ export default function BlogOfferCard() {
           
           {/* Headline */}
           <h3 className="text-2xl md:text-3xl font-extrabold text-white mb-2 tracking-tight">
-            Get Your Strimo IPTV <span className="bg-gradient-to-r from-[#25D366] via-[#34D399] to-[#38BDF8] bg-clip-text text-transparent">Free Trial</span>
+            Get Your area69iptv <span className="bg-gradient-to-r from-[#25D366] via-[#34D399] to-[#38BDF8] bg-clip-text text-transparent">Free Trial</span>
           </h3>
           
           {/* Subtitle / Description */}
@@ -45,7 +45,7 @@ export default function BlogOfferCard() {
         {/* Action Button */}
         <div className="shrink-0 w-full sm:w-auto mt-2 lg:mt-0">
           <a
-            href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%2024-hour%20trial%20for%20StrimoIPTV."
+            href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%2024-hour%20trial%20for%20area69iptv."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#20bd5a] hover:to-[#0f7a6e] text-white font-extrabold text-sm rounded-full transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_25px_rgba(37,211,102,0.4)] hover:shadow-[0_0_35px_rgba(37,211,102,0.7)] group/btn whitespace-nowrap"

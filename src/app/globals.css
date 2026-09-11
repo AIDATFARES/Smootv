@@ -61,27 +61,31 @@
 }
 
 /* Card Styling Utilities */
-.strimo-card {
+.strimo-card,
+.area69-card {
   background-color: #0D111B;
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.strimo-card:hover {
+.strimo-card:hover,
+.area69-card:hover {
   background-color: #111621;
   border-color: rgba(96, 165, 250, 0.3);
   box-shadow: 0 10px 30px -10px rgba(37, 99, 235, 0.2);
 }
 
 /* Featured Plan Card Glow */
-.strimo-featured-card {
+.strimo-featured-card,
+.area69-featured-card {
   background: linear-gradient(180deg, #111621 0%, #0D111B 100%);
   border: 1px solid rgba(96, 165, 250, 0.4);
   box-shadow: 0 0 35px -5px rgba(124, 58, 237, 0.3), 0 0 15px -3px rgba(37, 99, 235, 0.4);
 }
 
 /* Base Buttons */
-.btn-primary-strimo {
+.btn-primary-strimo,
+.btn-primary-area69 {
   position: relative;
   background: linear-gradient(90deg, #38BDF8 0%, #818CF8 100%);
   color: #060810;
@@ -92,12 +96,14 @@
   overflow: hidden;
 }
 
-.btn-primary-strimo:hover {
+.btn-primary-strimo:hover,
+.btn-primary-area69:hover {
   box-shadow: 0 6px 30px rgba(129, 140, 248, 0.6), 0 0 15px rgba(56, 189, 248, 0.5);
   transform: translateY(-2px) scale(1.02);
 }
 
-.btn-secondary-strimo {
+.btn-secondary-strimo,
+.btn-secondary-area69 {
   position: relative;
   background: rgba(13, 17, 27, 0.8);
   border: 1px solid rgba(96, 165, 250, 0.25);
@@ -108,7 +114,8 @@
   backdrop-filter: blur(8px);
 }
 
-.btn-secondary-strimo:hover {
+.btn-secondary-strimo:hover,
+.btn-secondary-area69:hover {
   border-color: rgba(56, 189, 248, 0.6);
   color: #FFFFFF;
   background: rgba(56, 189, 248, 0.12);

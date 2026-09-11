@@ -29,7 +29,7 @@ export default function IPTVHeroMockup() {
             <div className="w-3 h-3 rounded-full bg-red-500/80" />
             <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
             <div className="w-3 h-3 rounded-full bg-green-500/80" />
-            <span className="ml-2 text-xs font-mono text-[#667085]">STRIMO-TV-PLAYER v4.2</span>
+            <span className="ml-2 text-xs font-mono text-[#667085]">AREA69-TV-PLAYER v4.2</span>
           </div>
 
           <div className="flex items-center gap-3">
@@ -45,7 +45,7 @@ export default function IPTVHeroMockup() {
           {/* Real Screen Image */}
           <Image
             src="/hero-player-screen.webp"
-            alt="StrimoIPTV Live Broadcast Stream"
+            alt="area69iptv Live Broadcast Stream"
             fill
             className="object-cover object-center brightness-95 group-hover:scale-105 transition-transform duration-700"
             priority
