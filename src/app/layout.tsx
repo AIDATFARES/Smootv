@@ -26,9 +26,12 @@ export const metadata: Metadata = {
   description: "Experience premium IPTV streaming with area69iptv. Access 50,000+ live international channels, 200,000 VOD movies, and live 4K sports with anti-freeze server technology and instant automated setup.",
   metadataBase: new URL("https://www.area69iptv4k.shop"),
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
   },
   alternates: {
     canonical: "/",
