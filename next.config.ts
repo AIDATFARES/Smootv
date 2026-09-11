@@ -16,8 +16,31 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/blog/internet-speed-for-iptv",
+        destination: "/blog/iptv-internet-speed-requirements",
+        permanent: true,
+      },
+      {
+        source: "/blog/best-iptv-apps-firestick-2026",
+        destination: "/blog/best-iptv-players-firestick",
+        permanent: true,
+      },
+      {
+        source: "/blog/best-iptv-apps-smart-tv-2026",
+        destination: "/blog/best-smart-tv-iptv-apps",
+        permanent: true,
+      },
+      {
+        source: "/blog/iptv-not-working-2026",
+        destination: "/blog/fix-iptv-not-working-troubleshooting",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
-// Force Vercel deployment update for www.dooriptv.shop canonical domain alignment
 
