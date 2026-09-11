@@ -48,8 +48,8 @@ export default function HowItWorksSection() {
                 key={idx}
                 className="strimo-card p-8 rounded-2xl relative flex flex-col justify-between overflow-hidden group"
               >
-                {/* Large Background Step Number */}
-                <div className="absolute top-2 right-4 text-7xl font-black text-white/[0.04] group-hover:text-cyan-500/10 transition-colors select-none font-mono">
+                {/* Large Background Step Number (Decorative) */}
+                <div aria-hidden="true" className="absolute top-2 right-4 text-7xl font-black text-white/[0.04] group-hover:text-cyan-500/10 transition-colors select-none font-mono pointer-events-none">
                   {step.number}
                 </div>
 

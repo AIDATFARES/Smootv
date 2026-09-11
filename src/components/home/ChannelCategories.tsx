@@ -98,7 +98,7 @@ export default function ChannelCategories() {
                   <div className="mb-3 inline-flex items-center justify-center text-white">
                     <Icon className="h-7 w-7" strokeWidth={1.5} />
                   </div>
-                  <h4 className="mb-2 text-[15px] font-black text-white">{feature.title}</h4>
+                  <h3 className="mb-2 text-[15px] font-black text-white">{feature.title}</h3>
                   <p className="text-[12px] leading-relaxed text-white/90 font-medium">
                     {feature.desc}
                   </p>

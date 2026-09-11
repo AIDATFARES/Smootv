@@ -67,38 +67,38 @@ export default function RootLayout({
                 <Link href="/" className="inline-block">
                   <BrandLogo />
                 </Link>
-                <p className="text-sm text-[#A7B0C0] max-w-sm leading-relaxed">
+                <p className="text-sm text-[#CBD5E1] max-w-sm leading-relaxed">
                   area69iptv is a leading global IPTV platform providing high-bitrate live television, 4K sports, and VOD entertainment with 99.9% server stability.
                 </p>
-                <div className="pt-2 text-xs text-[#667085]">
+                <div className="pt-2 text-xs text-[#94A3B8]">
                   © 2026 area69iptv (www.area69iptv4k.shop). All rights reserved.
                 </div>
               </div>
 
               {/* Product Column */}
               <div className="space-y-4">
-                <h4 className="text-sm font-bold text-white uppercase tracking-wider">Product</h4>
-                <ul className="space-y-2.5 text-sm text-[#A7B0C0]">
-                  <li><Link href="/pricing" className="hover:text-[#60A5FA] transition-colors">Plans &amp; Pricing</Link></li>
-                  <li><Link href="/channels" className="hover:text-[#60A5FA] transition-colors">Channel List</Link></li>
-                  <li><Link href="/how-it-works" className="hover:text-[#60A5FA] transition-colors">How It Works</Link></li>
-                  <li><Link href="/reseller" className="hover:text-[#60A5FA] transition-colors">Reseller Panel</Link></li>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider">Product</h3>
+                <ul className="space-y-2.5 text-sm text-[#CBD5E1]">
+                  <li><Link href="/pricing" className="hover:text-cyan-400 transition-colors">Plans &amp; Pricing</Link></li>
+                  <li><Link href="/channels" className="hover:text-cyan-400 transition-colors">Channel List</Link></li>
+                  <li><Link href="/how-it-works" className="hover:text-cyan-400 transition-colors">How It Works</Link></li>
+                  <li><Link href="/reseller" className="hover:text-cyan-400 transition-colors">Reseller Panel</Link></li>
                 </ul>
               </div>
 
               {/* Support Column */}
               <div className="space-y-4">
-                <h4 className="text-sm font-bold text-white uppercase tracking-wider">Support</h4>
-                <ul className="space-y-2.5 text-sm text-[#A7B0C0]">
-                  <li><Link href="/installation" className="hover:text-[#60A5FA] transition-colors">Install Guide</Link></li>
-                  <li><Link href="/faq" className="hover:text-[#60A5FA] transition-colors">FAQ</Link></li>
-                  <li><Link href="/contact" className="hover:text-[#60A5FA] transition-colors">Contact Us</Link></li>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider">Support</h3>
+                <ul className="space-y-2.5 text-sm text-[#CBD5E1]">
+                  <li><Link href="/installation" className="hover:text-cyan-400 transition-colors">Install Guide</Link></li>
+                  <li><Link href="/faq" className="hover:text-cyan-400 transition-colors">FAQ</Link></li>
+                  <li><Link href="/contact" className="hover:text-cyan-400 transition-colors">Contact Us</Link></li>
                   <li>
                     <a 
                       href="https://wa.me/447882781998" 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="hover:text-[#60A5FA] transition-colors flex items-center gap-1.5"
+                      className="hover:text-cyan-400 transition-colors flex items-center gap-1.5"
                     >
                       <span>WhatsApp Support</span>
                     </a>
@@ -108,23 +108,23 @@ export default function RootLayout({
 
               {/* Company & Legal Column */}
               <div className="space-y-4">
-                <h4 className="text-sm font-bold text-white uppercase tracking-wider">Company</h4>
-                <ul className="space-y-2.5 text-sm text-[#A7B0C0]">
-                  <li><Link href="/blog" className="hover:text-[#60A5FA] transition-colors">Blog &amp; Guides</Link></li>
-                  <li><Link href="/privacy-policy" className="hover:text-[#60A5FA] transition-colors">Privacy Policy</Link></li>
-                  <li><Link href="/refund-policy" className="hover:text-[#60A5FA] transition-colors">Refund Policy</Link></li>
-                  <li><Link href="/dmca" className="hover:text-[#60A5FA] transition-colors">DMCA Disclaimer</Link></li>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider">Company</h3>
+                <ul className="space-y-2.5 text-sm text-[#CBD5E1]">
+                  <li><Link href="/blog" className="hover:text-cyan-400 transition-colors">Blog &amp; Guides</Link></li>
+                  <li><Link href="/privacy-policy" className="hover:text-cyan-400 transition-colors">Privacy Policy</Link></li>
+                  <li><Link href="/refund-policy" className="hover:text-cyan-400 transition-colors">Refund Policy</Link></li>
+                  <li><Link href="/dmca" className="hover:text-cyan-400 transition-colors">DMCA Disclaimer</Link></li>
                 </ul>
               </div>
 
             </div>
 
-            <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-[#667085] gap-4">
+            <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-[#94A3B8] gap-4">
               <div>High Performance 4K Cloud Streaming Infrastructure</div>
               <div className="flex items-center gap-4">
-                <Link href="/privacy-policy" className="hover:text-[#A7B0C0] transition-colors">Privacy</Link>
-                <Link href="/refund-policy" className="hover:text-[#A7B0C0] transition-colors">Refunds</Link>
-                <Link href="/dmca" className="hover:text-[#A7B0C0] transition-colors">DMCA</Link>
+                <Link href="/privacy-policy" className="text-[#94A3B8] hover:text-white transition-colors">Privacy</Link>
+                <Link href="/refund-policy" className="text-[#94A3B8] hover:text-white transition-colors">Refunds</Link>
+                <Link href="/dmca" className="text-[#94A3B8] hover:text-white transition-colors">DMCA</Link>
               </div>
             </div>
           </div>

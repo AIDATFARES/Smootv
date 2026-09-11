@@ -171,7 +171,7 @@ export default function PricingSection() {
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-base font-bold text-white">100% Risk-Free area69iptv Guarantee</h4>
+              <h3 className="text-base font-bold text-white">100% Risk-Free area69iptv Guarantee</h3>
               <p className="text-xs text-[#A7B0C0] mt-0.5">Enjoy premium 4K IPTV streaming or request assistance from our 24/7 technical team within 7 days.</p>
             </div>
           </div>

@@ -4,7 +4,7 @@ export default function WhatsAppButton() {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
       {/* Tooltip Bubble */}
-      <div className="relative bg-[#25D366] text-white px-4 py-2 rounded-lg text-sm font-bold shadow-lg animate-bounce mr-2">
+      <div className="relative bg-[#25D366] text-[#062412] px-4 py-2 rounded-lg text-sm font-black shadow-lg animate-bounce mr-2">
         Need help? Chat with us!
         {/* Triangle pointer */}
         <div className="absolute -bottom-2 right-4 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] border-t-[#25D366]"></div>
