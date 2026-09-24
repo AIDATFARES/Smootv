@@ -98,7 +98,7 @@ export default function FAQ() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#F8FAFC] tracking-tight leading-tight">
             Frequently Asked Questions
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#A7B0C0]">
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#CBD5E1]">
             Find answers to common questions about Smootv setups, channel lineups, device compatibility, and subscription plans.
           </p>
         </header>
@@ -128,7 +128,7 @@ export default function FAQ() {
                 {isOpen && (
                   <div 
                     id={contentId}
-                    className="p-5 pt-0 text-xs sm:text-sm leading-relaxed text-[#A7B0C0] border-t border-white/5 pt-3"
+                    className="p-5 pt-0 text-xs sm:text-sm leading-relaxed text-[#CBD5E1] border-t border-white/5 pt-3"
                   >
                     {faq.answer}
                   </div>
@@ -142,7 +142,7 @@ export default function FAQ() {
         <section className="mt-20 border-t border-amber-500/10 pt-16 sm:pt-20">
           <header className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-black tracking-tight text-[#F8FAFC]">Get in Touch with Smootv Support</h2>
-            <p className="mt-3 text-sm leading-relaxed text-[#A7B0C0]">We&apos;re here 24/7 to assist with playlist setup and technical questions.</p>
+            <p className="mt-3 text-sm leading-relaxed text-[#CBD5E1]">We&apos;re here 24/7 to assist with playlist setup and technical questions.</p>
           </header>
           
           <div className="mt-10 grid gap-8 xl:grid-cols-[278px_minmax(0,1fr)] xl:gap-10">
@@ -152,7 +152,7 @@ export default function FAQ() {
                   <Mail className="h-5 w-5" />
                 </div>
                 <span className="block text-sm font-bold text-white">Email Us</span>
-                <span className="mt-1 block text-xs text-[#A7B0C0]">support@smootv.top</span>
+                <span className="mt-1 block text-xs text-[#CBD5E1]">support@smootv.top</span>
               </a>
 
               <a className="smootv-card p-5 text-center flex flex-col items-center justify-center rounded-2xl" href="https://wa.me/447882781998" target="_blank" rel="noreferrer">
@@ -168,7 +168,7 @@ export default function FAQ() {
                   <Clock3 className="h-5 w-5" />
                 </div>
                 <span className="block text-sm font-bold text-white">Response Time</span>
-                <span className="mt-1 block text-xs text-[#A7B0C0]">Under 15 minutes</span>
+                <span className="mt-1 block text-xs text-[#CBD5E1]">Under 15 minutes</span>
               </div>
             </div>
 

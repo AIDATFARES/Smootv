@@ -64,13 +64,13 @@ export default function RootLayout({
               
               {/* Brand Column */}
               <div className="lg:col-span-2 space-y-4">
-                <Link href="/" className="inline-block">
+                <Link href="/" aria-label="Smootv Homepage" className="inline-block">
                   <BrandLogo />
                 </Link>
                 <p className="text-sm text-[#CBD5E1] max-w-sm leading-relaxed">
                   Smootv is a leading global IPTV platform providing high-bitrate live television, 4K sports, and VOD entertainment with 99.9% server stability.
                 </p>
-                <div className="pt-2 text-xs text-[#8E98A8]">
+                <div className="pt-2 text-xs text-[#94A3B8]">
                   © 2026 Smootv (www.smootv.top). All rights reserved.
                 </div>
               </div>

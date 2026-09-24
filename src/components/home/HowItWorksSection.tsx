@@ -34,7 +34,7 @@ export default function HowItWorksSection() {
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             How <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv</span> Works
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
+          <p className="text-[#CBD5E1] text-base sm:text-lg mt-4">
             Fast, automated subscription setup with instant credentials delivery in under 3 minutes.
           </p>
         </div>
@@ -66,7 +66,7 @@ export default function HowItWorksSection() {
                     {step.title}
                   </h3>
 
-                  <p className="text-sm text-[#A7B0C0] leading-relaxed">
+                  <p className="text-sm text-[#CBD5E1] leading-relaxed">
                     {step.description}
                   </p>
                 </div>

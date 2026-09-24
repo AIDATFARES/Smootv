@@ -18,7 +18,7 @@ export default function Blog() {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[#F8FAFC] mb-4">
           Latest News &amp; <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Streaming Tips</span>
         </h1>
-        <p className="text-base sm:text-lg text-[#A7B0C0] max-w-2xl">
+        <p className="text-base sm:text-lg text-[#CBD5E1] max-w-2xl">
           Stay updated with 4K IPTV technology, channel setup guides, app tutorials, and streaming tips for Smootv.
         </p>
       </header>
@@ -27,7 +27,7 @@ export default function Blog() {
       {blogPosts.length === 0 && (
         <section className="text-center py-20 smootv-card rounded-2xl mb-16">
           <p className="text-xl font-bold text-white mb-2">No Articles Available Right Now</p>
-          <p className="text-sm text-[#A7B0C0]">New IPTV streaming guides and tutorials are coming soon!</p>
+          <p className="text-sm text-[#CBD5E1]">New IPTV streaming guides and tutorials are coming soon!</p>
         </section>
       )}
 
@@ -52,7 +52,7 @@ export default function Blog() {
                 <h2 className="text-2xl md:text-3xl font-black text-[#F8FAFC] mb-4 group-hover:text-amber-300 transition-colors leading-tight">
                   {featuredPost.title}
                 </h2>
-                <p className="text-[#A7B0C0] text-xs sm:text-sm mb-8 line-clamp-3 leading-relaxed">
+                <p className="text-[#CBD5E1] text-xs sm:text-sm mb-8 line-clamp-3 leading-relaxed">
                   {featuredPost.description}
                 </p>
                 <div className="flex items-center gap-3 mt-auto">
@@ -86,10 +86,10 @@ export default function Blog() {
                 <h3 className="text-lg font-bold text-[#F8FAFC] mb-3 group-hover:text-amber-300 transition-colors leading-snug">
                   {post.title}
                 </h3>
-                <p className="text-xs text-[#A7B0C0] mb-6 line-clamp-2 leading-relaxed">
+                <p className="text-xs text-[#CBD5E1] mb-6 line-clamp-2 leading-relaxed">
                   {post.description}
                 </p>
-                <div className="mt-auto flex items-center justify-between text-[#667085] text-[10px] font-bold tracking-wider uppercase border-t border-white/5 pt-4">
+                <div className="mt-auto flex items-center justify-between text-[#94A3B8] text-[10px] font-bold tracking-wider uppercase border-t border-white/5 pt-4">
                   <span>{post.date}</span>
                   <span className="text-amber-400 flex items-center gap-1 group-hover:gap-2 transition-all">
                     Read Article <ArrowRight className="w-3 h-3" />
@@ -106,7 +106,7 @@ export default function Blog() {
         <div className="relative z-10 max-w-2xl mx-auto">
           <Mail className="w-10 h-10 text-amber-400 mb-4 mx-auto" />
           <h2 className="text-3xl font-black text-[#F8FAFC] mb-3">Never Miss a Streaming Update</h2>
-          <p className="text-[#A7B0C0] text-sm mb-8">
+          <p className="text-[#CBD5E1] text-sm mb-8">
             Subscribe for the latest IPTV streaming tips, device setup updates, and channel additions delivered straight to your inbox.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 justify-center" onSubmit={(e) => e.preventDefault()}>

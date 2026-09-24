@@ -106,7 +106,7 @@ export default function ChannelsPage() {
             Smootv <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Live Channels &amp; VOD Lineup</span>
           </h1>
 
-          <p className="mx-auto mt-5 max-w-2xl text-base sm:text-lg text-[#A7B0C0] leading-relaxed">
+          <p className="mx-auto mt-5 max-w-2xl text-base sm:text-lg text-[#CBD5E1] leading-relaxed">
             Explore the complete Smootv channel lineup featuring live sports, 4K movies, global news, premium entertainment, and on-demand series from over 150+ countries. Check our <Link href="/pricing" className="text-amber-400 hover:underline font-semibold">subscription plans</Link> or <Link href="/installation" className="text-amber-400 hover:underline font-semibold">setup guides</Link> to start watching.
           </p>
         </div>
@@ -139,7 +139,7 @@ export default function ChannelsPage() {
 
                     <ul className="w-full space-y-2.5 mb-6">
                       {category.items.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-xs text-[#A7B0C0] leading-tight">
+                        <li key={item} className="flex items-start gap-2 text-xs text-[#CBD5E1] leading-tight">
                           <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-amber-400" />
                           <span>{item}</span>
                         </li>
@@ -148,7 +148,7 @@ export default function ChannelsPage() {
                   </div>
 
                   <div className="w-full pt-4 border-t border-white/5 flex items-center justify-between">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-[#667085]">Total Available</span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-[#94A3B8]">Total Available</span>
                     <span className="text-xs font-bold text-amber-400">{category.count}</span>
                   </div>
                 </article>
@@ -166,7 +166,7 @@ export default function ChannelsPage() {
         </section>
 
         {/* Quick Links Bar */}
-        <div className="mb-16 p-6 rounded-2xl bg-[#0B0D14] border border-amber-500/20 flex flex-wrap items-center justify-between gap-4 text-xs font-bold text-[#A7B0C0] shadow-[0_4px_25px_rgba(0,0,0,0.5)]">
+        <div className="mb-16 p-6 rounded-2xl bg-[#0B0D14] border border-amber-500/20 flex flex-wrap items-center justify-between gap-4 text-xs font-bold text-[#CBD5E1] shadow-[0_4px_25px_rgba(0,0,0,0.5)]">
           <span>Need help setting up these channels on your device?</span>
           <div className="flex items-center gap-4">
             <Link href="/installation" className="text-amber-400 hover:underline">Device Setup Guide →</Link>
@@ -180,7 +180,7 @@ export default function ChannelsPage() {
           <div className="relative z-10 max-w-2xl mx-auto">
             <CirclePlay className="w-10 h-10 text-amber-400 mx-auto mb-4 animate-bounce" />
             <h2 className="text-3xl font-black text-[#F8FAFC]">Ready to Experience Smootv Live TV?</h2>
-            <p className="mt-3 text-[#A7B0C0] text-sm sm:text-base leading-relaxed">
+            <p className="mt-3 text-[#CBD5E1] text-sm sm:text-base leading-relaxed">
               Select your preferred Smootv subscription plan to receive instant activation credentials via email and WhatsApp within seconds.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">

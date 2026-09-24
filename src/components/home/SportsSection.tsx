@@ -66,7 +66,7 @@ export default function SportsSection() {
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             Stream Every <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Game &amp; PPV Event</span> with Smootv
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
+          <p className="text-[#CBD5E1] text-base sm:text-lg mt-4">
             Smootv gives you unlimited access to premium pay-per-view sports networks, regional sports passes, and international 4K tournament streams with zero add-on fees. Explore our full <Link href="/channels" className="text-amber-400 hover:underline font-semibold">IPTV channel lineup</Link> or pick a <Link href="/pricing" className="text-amber-400 hover:underline font-semibold">subscription package</Link>.
           </p>
         </div>
@@ -96,12 +96,12 @@ export default function SportsSection() {
                   {item.channel}
                 </div>
 
-                <p className="text-sm text-[#A7B0C0] mt-3 leading-relaxed">
+                <p className="text-sm text-[#CBD5E1] mt-3 leading-relaxed">
                   {item.desc}
                 </p>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-[#A7B0C0]">
+              <div className="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-xs text-[#CBD5E1]">
                 <span>Anti-Freeze Server</span>
                 <Link
                   href="/pricing"

@@ -15,7 +15,7 @@ export default function TVMockup() {
             alt="Smootv streaming on TV, phone, tablet, and laptop"
             className="h-auto w-full object-contain filter drop-shadow-[0_12px_30px_rgba(245,158,11,0.2)]"
             height={1000}
-            priority
+            loading="lazy"
             sizes="(max-width: 1024px) 100vw, 60vw"
             src="/smootv-devices-mockup.webp"
             width={1800}

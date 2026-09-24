@@ -24,17 +24,17 @@ export default function Installation() {
           Smootv <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Installation &amp; Setup Guide</span>
         </h1>
         
-        <p className="mx-auto mt-5 max-w-2xl text-base sm:text-lg leading-relaxed text-[#A7B0C0]">
+        <p className="mx-auto mt-5 max-w-2xl text-base sm:text-lg leading-relaxed text-[#CBD5E1]">
           Comprehensive step-by-step instructions to configure your Smootv subscription on all major streaming devices.
         </p>
 
-        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#A7B0C0]">
+        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#CBD5E1]">
           Smootv works seamlessly on Smart TVs, Amazon Firestick, Android TV boxes, Apple TV, iOS, Windows, Mac, and MAG devices. New to Smootv? Explore our{" "}
           <Link className="font-bold text-amber-400 hover:underline" href="/pricing">Pricing Plans</Link> or browse the{" "}
           <Link className="font-bold text-amber-400 hover:underline" href="/channels">Channel List</Link> first.
         </p>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm font-bold text-[#A7B0C0]">
+        <div className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-xs sm:text-sm font-bold text-[#CBD5E1]">
           <span className="inline-flex items-center gap-2"><Monitor className="h-4 w-4 text-amber-400" />15+ Devices Supported</span>
           <span className="inline-flex items-center gap-2"><Clock3 className="h-4 w-4 text-amber-400" />3–5 Minutes Setup</span>
           <span className="inline-flex items-center gap-2"><Headphones className="h-4 w-4 text-amber-400" />24/7 Smootv Support</span>
@@ -74,7 +74,7 @@ export default function Installation() {
       {/* Help Section */}
       <section className="smootv-card p-10 max-w-2xl mx-auto text-center rounded-3xl mt-16">
         <h2 className="text-2xl font-black text-[#F8FAFC]">Need Help with Smootv Setup?</h2>
-        <p className="mt-2 text-sm text-[#A7B0C0]">Our dedicated technical support team is available 24/7 on WhatsApp to assist with your Smootv installation.</p>
+        <p className="mt-2 text-sm text-[#CBD5E1]">Our dedicated technical support team is available 24/7 on WhatsApp to assist with your Smootv installation.</p>
         <a 
           className="mt-6 btn-primary-smootv px-8 py-3.5 text-xs font-extrabold uppercase tracking-wider inline-flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
           href="https://wa.me/447882781998?text=Hello,%20I%20need%20help%20setting%20up%20Smootv."
@@ -98,7 +98,7 @@ function QuickStartCard({ children, icon: Icon, step, title }: { children: React
         {step}
       </span>
       <h3 className="text-white font-extrabold text-sm tracking-wider uppercase">{title}</h3>
-      <p className="text-[#A7B0C0] text-xs leading-relaxed">{children}</p>
+      <p className="text-[#CBD5E1] text-xs leading-relaxed">{children}</p>
     </div>
   );
 }

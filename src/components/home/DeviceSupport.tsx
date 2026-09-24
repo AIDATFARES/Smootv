@@ -23,7 +23,7 @@ export default function DeviceSupport() {
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             Watch Smootv on <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Any Device</span>
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
+          <p className="text-[#CBD5E1] text-base sm:text-lg mt-4">
             Smootv works seamlessly across all major operating systems, smart televisions, Firestick, and third-party IPTV player apps. View our detailed <Link href="/installation" className="text-amber-400 hover:underline font-semibold">IPTV Installation Tutorials</Link>.
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function DeviceSupport() {
                     {dev.name}
                   </h3>
 
-                  <p className="text-sm text-[#A7B0C0] leading-relaxed">
+                  <p className="text-sm text-[#CBD5E1] leading-relaxed">
                     {dev.desc}
                   </p>
                 </div>

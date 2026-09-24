@@ -115,7 +115,7 @@ export default function PricingPageContent() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-[#F8FAFC]">
             SMOOTV <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">SUBSCRIPTION PLANS</span>
           </h1>
-          <p className="mx-auto mt-6 text-base sm:text-lg text-[#A7B0C0] font-normal leading-relaxed max-w-2xl">
+          <p className="mx-auto mt-6 text-base sm:text-lg text-[#CBD5E1] font-normal leading-relaxed max-w-2xl">
             Choose your Smootv subscription plan. Enjoy bigger savings on 6-month and 12-month packages with simultaneous multi-device connection options.
           </p>
         </header>
@@ -124,7 +124,7 @@ export default function PricingPageContent() {
         <div className="mx-auto mb-16 flex flex-col items-center">
           <div className="flex items-center gap-2 mb-4">
             <Tv className="h-4 w-4 text-amber-400" />
-            <p className="text-xs font-bold uppercase tracking-widest text-[#A7B0C0]">Select Number of Devices</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#CBD5E1]">Select Number of Devices</p>
           </div>
           <div className="inline-flex rounded-full border border-white/10 p-1.5 bg-[#0B0D14]">
             {[1, 2, 3].map((count) => {
@@ -136,7 +136,7 @@ export default function PricingPageContent() {
                   className={`rounded-full px-6 py-2.5 text-xs sm:text-sm font-bold transition-all uppercase tracking-wide ${
                     selected
                       ? "btn-primary-smootv"
-                      : "text-[#A7B0C0] hover:text-white"
+                      : "text-[#CBD5E1] hover:text-white"
                   }`}
                 >
                   {count} Device{count > 1 ? "s" : ""}
@@ -174,7 +174,7 @@ export default function PricingPageContent() {
                 
                 <div className="flex items-baseline gap-2 mb-3">
                   <span className="text-5xl font-black tracking-tight text-white">${priceFor(plan)}</span>
-                  <span className="text-xs text-[#A7B0C0] font-medium">/ {plan.durationLabel}</span>
+                  <span className="text-xs text-[#CBD5E1] font-medium">/ {plan.durationLabel}</span>
                 </div>
 
                 <div className="flex items-center gap-2">
@@ -195,7 +195,7 @@ export default function PricingPageContent() {
 
               <ul className="my-4 flex-grow space-y-3">
                 {commonFeatures.map((featureText, idx) => (
-                  <li key={idx} className="flex items-start gap-2.5 text-xs text-[#A7B0C0]">
+                  <li key={idx} className="flex items-start gap-2.5 text-xs text-[#CBD5E1]">
                     <CheckCircle2 className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
                     <span>
                       {featureText.replace('{devices}', devices.toString()).replace('{s}', devices > 1 ? 's' : '')}
@@ -230,7 +230,7 @@ export default function PricingPageContent() {
             </div>
             <div>
               <h3 className="text-base font-bold text-white uppercase">Want to test Smootv first?</h3>
-              <p className="text-xs text-[#A7B0C0]">Request a free trial pass to evaluate our 4K servers on your device.</p>
+              <p className="text-xs text-[#CBD5E1]">Request a free trial pass to evaluate our 4K servers on your device.</p>
             </div>
           </div>
           <a
@@ -264,7 +264,7 @@ export default function PricingPageContent() {
                   <Icon className="w-5 h-5" />
                 </div>
                 <h3 className="text-white font-bold text-base">{title}</h3>
-                <p className="text-[#A7B0C0] text-xs leading-relaxed">{text}</p>
+                <p className="text-[#CBD5E1] text-xs leading-relaxed">{text}</p>
               </div>
             ))}
           </div>
@@ -280,7 +280,7 @@ export default function PricingPageContent() {
                   <HelpCircle className="w-4 h-4 text-amber-400 shrink-0" />
                   {item.question}
                 </h3>
-                <p className="text-xs text-[#A7B0C0] leading-relaxed">{item.answer}</p>
+                <p className="text-xs text-[#CBD5E1] leading-relaxed">{item.answer}</p>
               </div>
             ))}
           </div>

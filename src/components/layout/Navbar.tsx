@@ -47,7 +47,7 @@ export default function Navbar() {
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-8 flex items-center justify-between relative">
         
         {/* BRAND LOGO */}
-        <Link href="/" onClick={handleLogoClick} className="flex items-center gap-2 group shrink-0 z-20">
+        <Link href="/" onClick={handleLogoClick} aria-label="Smootv Homepage" className="flex items-center gap-2 group shrink-0 z-20">
           <BrandLogo />
         </Link>
 
@@ -81,6 +81,7 @@ export default function Navbar() {
             href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20get%20started%20with%20Smootv."
             target="_blank"
             rel="noreferrer"
+            aria-label="Get started with Smootv on WhatsApp"
             className="rounded-full bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-black text-xs font-black uppercase tracking-wider px-7 py-3 shadow-[0_0_22px_rgba(245,158,11,0.5)] hover:shadow-[0_0_32px_rgba(245,158,11,0.8)] transition-all duration-300 active:scale-[0.98]"
           >
             GET STARTED
@@ -128,6 +129,7 @@ export default function Navbar() {
               href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20get%20started%20with%20Smootv."
               target="_blank"
               rel="noreferrer"
+              aria-label="Get started with Smootv (Mobile Navigation)"
               className="w-full text-center py-3.5 rounded-full bg-gradient-to-r from-amber-400 to-yellow-500 text-black text-xs font-black uppercase tracking-wider shadow-[0_0_20px_rgba(245,158,11,0.5)]"
             >
               GET STARTED

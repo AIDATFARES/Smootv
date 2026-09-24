@@ -50,7 +50,7 @@ export default function FAQSection() {
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             Got <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Questions?</span> We Have Answers
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
+          <p className="text-[#CBD5E1] text-base sm:text-lg mt-4">
             Everything you need to know about Smootv subscription plans, setup instructions, device compatibility, and 4K server performance.
           </p>
         </div>
@@ -78,7 +78,7 @@ export default function FAQSection() {
                 </button>
 
                 {isOpen && (
-                  <div className="px-5 pb-5 text-sm text-[#A7B0C0] leading-relaxed border-t border-white/5 pt-3 animate-in fade-in duration-200">
+                  <div className="px-5 pb-5 text-sm text-[#CBD5E1] leading-relaxed border-t border-white/5 pt-3 animate-in fade-in duration-200">
                     {faq.a}
                   </div>
                 )}
@@ -88,7 +88,7 @@ export default function FAQSection() {
         </div>
 
         {/* Support CTA Link */}
-        <div className="mt-12 text-center text-sm text-[#A7B0C0]">
+        <div className="mt-12 text-center text-sm text-[#CBD5E1]">
           Still have questions?{" "}
           <a
             href="https://wa.me/447882781998?text=Hello,%20I%20have%20a%20question%20about%20Smootv."

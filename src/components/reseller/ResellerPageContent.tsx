@@ -167,7 +167,7 @@ export default function ResellerPageContent() {
             </span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-3xl text-base sm:text-lg leading-relaxed text-[#A7B0C0]">
+          <p className="mx-auto mt-6 max-w-3xl text-base sm:text-lg leading-relaxed text-[#CBD5E1]">
             Launch your own profitable IPTV business today. Get access to our high-margin Xtream Codes reseller control panel, zero-buffer 4K servers, non-expiring credits, and 24/7 technical support.
           </p>
 
@@ -188,7 +188,7 @@ export default function ResellerPageContent() {
             <h2 className="text-3xl sm:text-5xl font-black leading-tight tracking-tight text-[#F8FAFC]">
               Reseller <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Credit Packages</span>
             </h2>
-            <p className="mt-3 text-base text-[#A7B0C0]">
+            <p className="mt-3 text-base text-[#CBD5E1]">
               High profit margins with non-expiring credits and automated Smootv panel activation.
             </p>
           </div>
@@ -229,7 +229,7 @@ export default function ResellerPageContent() {
                   </span>
                 </div>
 
-                <ul className="flex-grow space-y-3 border-t border-white/5 pt-4 text-xs text-[#A7B0C0]">
+                <ul className="flex-grow space-y-3 border-t border-white/5 pt-4 text-xs text-[#CBD5E1]">
                   {planFeatures.map((feature) => (
                     <li className="flex items-start gap-2" key={feature}>
                       <Check className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
@@ -275,7 +275,7 @@ export default function ResellerPageContent() {
                   <h3 className="text-sm font-bold uppercase tracking-wider text-white mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-xs leading-relaxed text-[#A7B0C0]">
+                  <p className="text-xs leading-relaxed text-[#CBD5E1]">
                     {item.description}
                   </p>
                 </div>
@@ -313,7 +313,7 @@ export default function ResellerPageContent() {
                   </button>
 
                   {isOpen && (
-                    <div className="border-t border-white/5 p-5 text-xs text-[#A7B0C0] leading-relaxed">
+                    <div className="border-t border-white/5 p-5 text-xs text-[#CBD5E1] leading-relaxed">
                       {faq.answer}
                     </div>
                   )}
@@ -334,7 +334,7 @@ export default function ResellerPageContent() {
         </div>
 
         {/* TRUST BADGE */}
-        <div className="mt-16 flex items-center justify-center gap-2 text-xs font-semibold text-[#A7B0C0]">
+        <div className="mt-16 flex items-center justify-center gap-2 text-xs font-semibold text-[#CBD5E1]">
           <ShieldCheck className="h-4 w-4 text-emerald-400" />
           <span>Official Xtream Codes Reseller Panel - 99.9% Uptime Guarantee</span>
         </div>

@@ -88,10 +88,10 @@ export default function PrivacyPolicyPage() {
             <span className="block text-white">Privacy &amp; Data Protection</span>
             <span className="mt-1 block bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Official Policy.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#A7B0C0]">Last adjusted: September 14, 2025</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#CBD5E1]">Last adjusted: September 14, 2025</p>
         </header>
 
-        <div className="mt-10 space-y-10 text-base leading-7 text-[#A7B0C0]">
+        <div className="mt-10 space-y-10 text-base leading-7 text-[#CBD5E1]">
           <p>Welcome to Smootv. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-amber-400 hover:underline" href="/contact">contact our support team</Link>.</p>
           {sections.map((section) => (
             <section key={section.title}>

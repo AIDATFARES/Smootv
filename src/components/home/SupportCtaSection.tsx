@@ -16,7 +16,7 @@ export default function SupportCtaSection() {
               Need Help with <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv Setup</span> or Technical Diagnostics?
             </h3>
 
-            <p className="text-[#A7B0C0] text-base mt-3 leading-relaxed">
+            <p className="text-[#CBD5E1] text-base mt-3 leading-relaxed">
               Our expert technical support team is available 24/7 on WhatsApp to assist with playlist installation, app configuration, device synchronization, and Smootv channel troubleshooting.
             </p>
 
@@ -37,6 +37,7 @@ export default function SupportCtaSection() {
               href="https://wa.me/447882781998?text=Hello,%20I%20need%20technical%20assistance%20with%20Smootv."
               target="_blank"
               rel="noreferrer"
+              aria-label="Contact Smootv Technical Support on WhatsApp"
               className="btn-primary-smootv px-8 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
             >
               <MessageSquare className="w-4 h-4" />

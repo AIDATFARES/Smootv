@@ -12,7 +12,7 @@ export default function Contact() {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
           Get in Touch with <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv</span>
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#A7B0C0]">
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#CBD5E1]">
           We are here to assist with subscription setup, device configuration, or channel inquiries. Send us a message and our technical team will respond quickly.
         </p>
       </div>
@@ -25,7 +25,7 @@ export default function Contact() {
               <Mail className="w-6 h-6" />
             </div>
             <h2 className="font-bold text-xl text-white mb-2">Email Support</h2>
-            <p className="text-xs text-[#A7B0C0] mb-6">For general inquiries and account assistance.</p>
+            <p className="text-xs text-[#CBD5E1] mb-6">For general inquiries and account assistance.</p>
             <a
               className="text-amber-400 font-bold text-sm hover:underline"
               href="mailto:support@smootv.top"
@@ -39,7 +39,7 @@ export default function Contact() {
               <MessageCircle className="w-6 h-6" />
             </div>
             <h2 className="font-bold text-xl text-white mb-2">WhatsApp Live Support</h2>
-            <p className="text-xs text-[#A7B0C0] mb-6">
+            <p className="text-xs text-[#CBD5E1] mb-6">
               Fastest response time for instant setup help.
             </p>
             <a
@@ -57,7 +57,7 @@ export default function Contact() {
               <Clock className="w-6 h-6" />
             </div>
             <h2 className="font-bold text-xl text-white mb-2">Response Time</h2>
-            <p className="text-xs text-[#A7B0C0]">
+            <p className="text-xs text-[#CBD5E1]">
               Average response time: <strong className="text-white">Under 15 minutes</strong> on WhatsApp.
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function Contact() {
             <form className="flex flex-col gap-6" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
-                  <label className="text-xs font-bold uppercase tracking-widest text-[#A7B0C0]" htmlFor="name">
+                  <label className="text-xs font-bold uppercase tracking-widest text-[#CBD5E1]" htmlFor="name">
                     Name
                   </label>
                   <input
@@ -84,7 +84,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="flex flex-col gap-2">
-                  <label className="text-xs font-bold uppercase tracking-widest text-[#A7B0C0]" htmlFor="email">
+                  <label className="text-xs font-bold uppercase tracking-widest text-[#CBD5E1]" htmlFor="email">
                     Email Address
                   </label>
                   <input
@@ -98,7 +98,7 @@ export default function Contact() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="text-xs font-bold uppercase tracking-widest text-[#A7B0C0]" htmlFor="subject">
+                <label className="text-xs font-bold uppercase tracking-widest text-[#CBD5E1]" htmlFor="subject">
                   Subject
                 </label>
                 <input
@@ -111,7 +111,7 @@ export default function Contact() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="text-xs font-bold uppercase tracking-widest text-[#A7B0C0]" htmlFor="message">
+                <label className="text-xs font-bold uppercase tracking-widest text-[#CBD5E1]" htmlFor="message">
                   Message
                 </label>
                 <textarea

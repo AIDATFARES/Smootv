@@ -78,7 +78,7 @@ export default function ChannelCategories() {
                     <Icon className="h-10 w-10" strokeWidth={1.5} />
                   </div>
                   <h3 className="mb-3 text-[19px] font-black text-white">{feature.title}</h3>
-                  <p className="flex-grow text-[13px] leading-relaxed text-[#A7B0C0] font-medium">
+                  <p className="flex-grow text-[13px] leading-relaxed text-[#CBD5E1] font-medium">
                     {feature.desc}
                   </p>
                 </div>
@@ -99,7 +99,7 @@ export default function ChannelCategories() {
                     <Icon className="h-7 w-7" strokeWidth={1.5} />
                   </div>
                   <h3 className="mb-2 text-[15px] font-black text-white">{feature.title}</h3>
-                  <p className="text-[12px] leading-relaxed text-[#A7B0C0] font-medium">
+                  <p className="text-[12px] leading-relaxed text-[#CBD5E1] font-medium">
                     {feature.desc}
                   </p>
                 </div>

@@ -19,13 +19,14 @@ export default function FinalCtaSection() {
               Ready to Upgrade Your <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">IPTV Experience?</span>
             </h2>
 
-            <p className="text-base sm:text-xl text-[#A7B0C0] mt-6 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-xl text-[#CBD5E1] mt-6 max-w-2xl mx-auto leading-relaxed">
               Join thousands of satisfied Smootv subscribers watching live sports, movies, and TV shows in 4K HDR. Instant account activation in under 3 minutes.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mt-10">
               <a
                 href="#pricing"
+                aria-label="Get Smootv Access by viewing subscription plans"
                 className="btn-primary-smootv px-9 py-4 text-sm font-extrabold uppercase tracking-wider flex items-center gap-2 shadow-[0_0_25px_rgba(245,158,11,0.3)]"
               >
                 <span>Get Smootv Access</span>
@@ -36,6 +37,7 @@ export default function FinalCtaSection() {
                 href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Smootv."
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Request trial pass on WhatsApp"
                 className="btn-secondary-smootv px-9 py-4 text-sm font-semibold flex items-center gap-2"
               >
                 <Tv className="w-4 h-4 text-amber-400" />

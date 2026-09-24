@@ -33,7 +33,7 @@ export default function MovieStrips() {
         <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
           THE ULTIMATE <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">CINEMATIC</span> EXPERIENCE
         </h2>
-        <p className="text-[#A7B0C0] max-w-2xl mx-auto text-sm md:text-base mb-8">
+        <p className="text-[#CBD5E1] max-w-2xl mx-auto text-sm md:text-base mb-8">
           Explore a massive library of 200,000+ Films &amp; Series. From the latest blockbuster hits to timeless classics, all available instantly in crystal-clear 4K Ultra HD.
         </p>
         <Link 
@@ -46,13 +46,13 @@ export default function MovieStrips() {
 
       {/* Brand Logos Tape */}
       <div className="z-20 w-full mb-10">
-        <span className="block text-center text-sm font-bold tracking-widest text-[#A7B0C0] uppercase mb-6">50,000+ Premium Live Channels</span>
+        <span className="block text-center text-sm font-bold tracking-widest text-[#CBD5E1] uppercase mb-6">50,000+ Premium Live Channels</span>
         <BrandMarquee />
       </div>
 
       {/* Top Strip (Right to Left) */}
       <div className="w-full mb-4 z-20">
-        <span className="block text-center text-sm font-bold tracking-widest text-[#A7B0C0] uppercase mb-2">200,000+ Latest Movies &amp; Series</span>
+        <span className="block text-center text-sm font-bold tracking-widest text-[#CBD5E1] uppercase mb-2">200,000+ Latest Movies &amp; Series</span>
       </div>
       <div className="relative flex w-max items-center">
         <div className="flex gap-4 md:gap-6 px-2 md:px-3 animate-marquee" style={{ animationDuration: '30s' }}>

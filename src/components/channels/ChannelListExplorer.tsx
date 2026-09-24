@@ -138,20 +138,20 @@ export default function ChannelListExplorer() {
             <h2 className="text-2xl sm:text-3xl font-black text-[#F8FAFC]">
               Search &amp; Explore <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Live Channels Lineup</span>
             </h2>
-            <p className="text-xs sm:text-sm text-[#A7B0C0] mt-1">
+            <p className="text-xs sm:text-sm text-[#CBD5E1] mt-1">
               Showing <strong className="text-white">{filteredChannels.length}</strong> channels from our active 50,000+ lineup.
             </p>
           </div>
 
           {/* Search Input */}
           <div className="relative w-full md:w-80">
-            <Search className="absolute left-4 top-3.5 h-4 w-4 text-[#A7B0C0]" />
+            <Search className="absolute left-4 top-3.5 h-4 w-4 text-[#CBD5E1]" />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search channel or country..."
-              className="w-full rounded-xl bg-[#07080C] border border-white/10 pl-11 pr-4 py-3 text-xs text-white placeholder-[#667085] focus:border-amber-400 focus:outline-none transition-all"
+              className="w-full rounded-xl bg-[#07080C] border border-white/10 pl-11 pr-4 py-3 text-xs text-white placeholder-[#94A3B8] focus:border-amber-400 focus:outline-none transition-all"
             />
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function ChannelListExplorer() {
                 className={`px-4 py-2 rounded-full text-xs font-extrabold uppercase tracking-wider transition-all ${
                   selectedCategory === cat
                     ? "bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black shadow-[0_0_15px_rgba(245,158,11,0.4)]"
-                    : "bg-[#07080C] border border-white/10 text-[#A7B0C0] hover:text-white hover:border-amber-400/40"
+                    : "bg-[#07080C] border border-white/10 text-[#CBD5E1] hover:text-white hover:border-amber-400/40"
                 }`}
               >
                 {cat}
@@ -178,7 +178,7 @@ export default function ChannelListExplorer() {
 
           {/* Quality Filter */}
           <div className="flex items-center gap-2 bg-[#07080C] p-1 rounded-full border border-white/10">
-            <span className="text-[10px] font-bold text-[#667085] uppercase px-3">Resolution:</span>
+            <span className="text-[10px] font-bold text-[#94A3B8] uppercase px-3">Resolution:</span>
             {(["All", "4K", "FHD"] as const).map((q) => (
               <button
                 key={q}
@@ -186,7 +186,7 @@ export default function ChannelListExplorer() {
                 className={`px-3 py-1 rounded-full text-[10px] font-extrabold uppercase transition-all ${
                   qualityFilter === q
                     ? "bg-amber-500 text-black"
-                    : "text-[#A7B0C0] hover:text-white"
+                    : "text-[#CBD5E1] hover:text-white"
                 }`}
               >
                 {q}
@@ -215,11 +215,11 @@ export default function ChannelListExplorer() {
                     </h3>
                   </div>
                   <div className="flex items-center gap-2 mt-1">
-                    <span className="text-[10px] font-bold text-[#A7B0C0] uppercase">
+                    <span className="text-[10px] font-bold text-[#CBD5E1] uppercase">
                       {channel.country}
                     </span>
-                    <span className="text-[10px] text-[#667085]">•</span>
-                    <span className="text-[10px] text-[#A7B0C0]">
+                    <span className="text-[10px] text-[#94A3B8]">•</span>
+                    <span className="text-[10px] text-[#CBD5E1]">
                       {channel.category}
                     </span>
                   </div>
@@ -246,7 +246,7 @@ export default function ChannelListExplorer() {
         </div>
       ) : (
         <div className="smootv-card p-12 text-center rounded-3xl">
-          <p className="text-sm font-bold text-[#A7B0C0]">
+          <p className="text-sm font-bold text-[#CBD5E1]">
             No channels found matching &quot;{searchQuery}&quot;. Try adjusting your search query or category filter.
           </p>
         </div>
@@ -259,7 +259,7 @@ export default function ChannelListExplorer() {
             <Trophy className="w-5 h-5" />
             <h3 className="text-base font-bold text-white">50,000+ Live Channels</h3>
           </div>
-          <p className="text-xs text-[#A7B0C0] leading-relaxed">
+          <p className="text-xs text-[#CBD5E1] leading-relaxed">
             Includes premium sports networks, 24/7 live events, local news, and regional broadcasts from over 150+ countries.
           </p>
         </div>
@@ -269,7 +269,7 @@ export default function ChannelListExplorer() {
             <Film className="w-5 h-5" />
             <h3 className="text-base font-bold text-white">200,000+ VOD Movies &amp; Series</h3>
           </div>
-          <p className="text-xs text-[#A7B0C0] leading-relaxed">
+          <p className="text-xs text-[#CBD5E1] leading-relaxed">
             Full on-demand library featuring blockbusters, Netflix originals, HBO classics, Disney+ hits, and multi-language subtitles.
           </p>
         </div>
@@ -279,7 +279,7 @@ export default function ChannelListExplorer() {
             <Globe className="w-5 h-5" />
             <h3 className="text-base font-bold text-white">99.9% Server Uptime</h3>
           </div>
-          <p className="text-xs text-[#A7B0C0] leading-relaxed">
+          <p className="text-xs text-[#CBD5E1] leading-relaxed">
             Powered by high-bandwidth CDN anti-freeze servers ensuring buffer-free streaming during major live sports events.
           </p>
         </div>

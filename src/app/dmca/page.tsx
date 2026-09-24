@@ -94,13 +94,13 @@ export default function DmcaPage() {
             <span className="block text-white">Legal Disclaimer</span>
             <span className="mt-1 block bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">&amp; DMCA Notice.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#A7B0C0]">Last updated: {currentDate}</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#CBD5E1]">Last updated: {currentDate}</p>
         </header>
 
-        <div className="mt-10 space-y-10 text-base leading-7 text-[#A7B0C0]">
+        <div className="mt-10 space-y-10 text-base leading-7 text-[#CBD5E1]">
           <div className="space-y-4">
             <p>Content featured on this website is meant for general informational use and does not serve as legal advice. By engaging with our site or services, you agree to this disclaimer.</p>
-            <div className="rounded-xl border border-amber-500/25 bg-amber-500/10 p-5 text-sm text-[#A7B0C0]">
+            <div className="rounded-xl border border-amber-500/25 bg-amber-500/10 p-5 text-sm text-[#CBD5E1]">
               <strong className="text-white">Important:</strong> Smootv delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided &apos;as is&apos; for general guidance, not legal counsel.
             </div>
           </div>

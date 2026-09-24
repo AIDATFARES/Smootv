@@ -24,7 +24,7 @@ export default function WebPlayerSection() {
               Watch Anywhere directly from your <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Browser</span>
             </h2>
 
-            <p className="text-base sm:text-lg text-[#A7B0C0] mt-6 leading-relaxed font-normal">
+            <p className="text-base sm:text-lg text-[#CBD5E1] mt-6 leading-relaxed font-normal">
               No downloads or <Link href="/installation" className="text-amber-400 hover:underline font-semibold">app installations</Link> required. Simply log into our browser-based Smootv web player to access all <Link href="/channels" className="text-amber-400 hover:underline font-semibold">50,000+ live IPTV channels</Link>, EPG guide, and VOD cinema library instantly on any PC, Mac, Laptop, or Tablet.
             </p>
 
@@ -56,6 +56,7 @@ export default function WebPlayerSection() {
                 href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20test%20the%20Smootv%20Web%20Player."
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Launch Web Player test on WhatsApp"
                 className="btn-primary-smootv px-8 py-4 text-xs uppercase tracking-widest font-extrabold flex items-center gap-2.5 shadow-[0_0_25px_rgba(245,158,11,0.3)]"
               >
                 <span>LAUNCH WEB PLAYER</span>
@@ -64,6 +65,7 @@ export default function WebPlayerSection() {
 
               <Link
                 href="/pricing"
+                aria-label="View IPTV subscription plans from Web Player section"
                 className="btn-secondary-smootv px-6 py-4 text-xs uppercase tracking-widest font-extrabold"
               >
                 VIEW IPTV PLANS

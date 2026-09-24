@@ -36,6 +36,7 @@ export default function HeroSection() {
                 href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%2024-hour%20free%20trial%20for%20Smootv."
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Start 24-hour free trial on WhatsApp"
                 className="btn-primary-strimo btn-shimmer-effect btn-pulse-glow px-8 py-4 text-xs sm:text-sm uppercase tracking-widest font-black flex items-center justify-center gap-2.5 group shadow-xl"
               >
                 <Sparkles className="w-4 h-4 text-[#07080C] animate-pulse shrink-0" />
@@ -45,6 +46,7 @@ export default function HeroSection() {
 
               <Link
                 href="/pricing"
+                aria-label="View all Smootv IPTV pricing plans"
                 className="btn-secondary-strimo px-8 py-4 text-xs sm:text-sm uppercase tracking-widest font-extrabold flex items-center justify-center gap-2.5 group"
               >
                 <Tv className="w-4 h-4 text-amber-400 group-hover:scale-125 transition-transform duration-300 shrink-0" />

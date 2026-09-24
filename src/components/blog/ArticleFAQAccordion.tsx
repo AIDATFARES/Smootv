@@ -53,7 +53,7 @@ export default function ArticleFAQAccordion({ faqs }: { faqs: FAQItem[] }) {
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3, ease: "easeInOut" }}
                 >
-                  <div className="px-6 py-5 text-[#A7B0C0] text-sm sm:text-base leading-relaxed bg-[#0B0D14] border-t border-white/5">
+                  <div className="px-6 py-5 text-[#CBD5E1] text-sm sm:text-base leading-relaxed bg-[#0B0D14] border-t border-white/5">
                     {faq.answer}
                   </div>
                 </motion.div>

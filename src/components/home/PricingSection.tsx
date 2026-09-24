@@ -104,7 +104,7 @@ export default function PricingSection() {
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             Choose Your <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv Plan</span>
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
+          <p className="text-[#CBD5E1] text-base sm:text-lg mt-4">
             Transparent pricing options with instant automated activation, 50,000+ live channels, 200,000+ VODs, and zero contract commitments.
           </p>
         </div>
@@ -131,11 +131,11 @@ export default function PricingSection() {
                 <div className="mt-4 flex items-baseline gap-1">
                   <span className="text-4xl font-black text-white">{plan.price}</span>
                 </div>
-                <div className="text-[11px] text-[#A7B0C0] mt-1 font-medium">{plan.period}</div>
+                <div className="text-[11px] text-[#CBD5E1] mt-1 font-medium">{plan.period}</div>
 
                 <div className="my-6 border-t border-white/10" />
 
-                <ul className="space-y-3 text-xs text-[#A7B0C0]">
+                <ul className="space-y-3 text-xs text-[#CBD5E1]">
                   {plan.features.map((feat, fIdx) => (
                     <li key={fIdx} className="flex items-start gap-2">
                       <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
@@ -150,6 +150,7 @@ export default function PricingSection() {
                   href={`https://wa.me/447882781998?text=${plan.whatsappText}`}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label={`Order ${plan.name} IPTV subscription plan`}
                   className={`w-full py-3.5 text-xs font-extrabold uppercase tracking-wider rounded-full flex items-center justify-center gap-2 transition-all ${
                     plan.popular
                       ? "btn-primary-smootv"
@@ -172,7 +173,7 @@ export default function PricingSection() {
             </div>
             <div>
               <h3 className="text-base font-bold text-white">100% Risk-Free Smootv Guarantee</h3>
-              <p className="text-xs text-[#A7B0C0] mt-0.5">Enjoy premium 4K IPTV streaming or request assistance from our 24/7 technical team within 7 days.</p>
+              <p className="text-xs text-[#CBD5E1] mt-0.5">Enjoy premium 4K IPTV streaming or request assistance from our 24/7 technical team within 7 days.</p>
             </div>
           </div>
 

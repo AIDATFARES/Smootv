@@ -102,10 +102,10 @@ export default function RefundPolicyPage() {
             <span className="block text-white">Refund &amp; Money-Back</span>
             <span className="mt-1 block bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Official Policy.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#A7B0C0]">Last adjusted: {currentDate}</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#CBD5E1]">Last adjusted: {currentDate}</p>
         </header>
 
-        <div className="mt-10 space-y-10 text-base leading-7 text-[#A7B0C0]">
+        <div className="mt-10 space-y-10 text-base leading-7 text-[#CBD5E1]">
           {sections.map((section, index) => (
             <section key={section.title}>
               <h2 className="text-2xl font-bold text-white">{index + 1}. {section.title}</h2>

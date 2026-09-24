@@ -81,7 +81,7 @@ export default function FeaturesSection() {
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
             Engineered for <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Ultimate IPTV Entertainment</span>
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
+          <p className="text-[#CBD5E1] text-base sm:text-lg mt-4">
             Discover why thousands of households choose Smootv for high-speed, buffer-free global television streaming and 4K cinema.
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function FeaturesSection() {
                     {item.title}
                   </h3>
 
-                  <p className="text-sm text-[#A7B0C0] mt-3 leading-relaxed">
+                  <p className="text-sm text-[#CBD5E1] mt-3 leading-relaxed">
                     {item.description}
                   </p>
                 </div>

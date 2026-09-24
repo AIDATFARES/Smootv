@@ -35,7 +35,7 @@ export default function DeviceSetupGuide() {
         <h1 className="text-3xl font-black tracking-tight text-[#F8FAFC] sm:text-5xl">
           Device Setup <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Instructions</span>
         </h1>
-        <p className="mt-4 text-base sm:text-lg text-[#A7B0C0]">Select your device below for step-by-step Smootv installation instructions.</p>
+        <p className="mt-4 text-base sm:text-lg text-[#CBD5E1]">Select your device below for step-by-step Smootv installation instructions.</p>
       </header>
 
       {/* Device Selector Buttons */}
@@ -48,7 +48,7 @@ export default function DeviceSetupGuide() {
               className={`inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-xs font-bold tracking-wider transition-all uppercase ${
                 active 
                   ? "btn-primary-smootv shadow-[0_0_15px_rgba(245,158,11,0.3)]" 
-                  : "border-white/10 bg-[#0B0D14] text-[#A7B0C0] hover:text-white hover:border-amber-400/40"
+                  : "border-white/10 bg-[#0B0D14] text-[#CBD5E1] hover:text-white hover:border-amber-400/40"
               }`} 
               key={item.id} 
               onClick={() => setActiveDevice(item.id)} 
@@ -70,7 +70,7 @@ export default function DeviceSetupGuide() {
           </div>
           <div>
             <h2 className="text-2xl font-black text-[#F8FAFC] sm:text-3xl">{device.title}</h2>
-            <p className="mt-1 text-[#A7B0C0] text-sm">Follow these steps to configure your {device.label} for Smootv.</p>
+            <p className="mt-1 text-[#CBD5E1] text-sm">Follow these steps to configure your {device.label} for Smootv.</p>
           </div>
         </div>
         
@@ -80,7 +80,7 @@ export default function DeviceSetupGuide() {
             <HelpCircle className="h-6 w-6 text-amber-400 shrink-0 mt-0.5" />
             <div>
               <h3 className="font-bold text-white mb-1">Important Note</h3>
-              <p className="text-xs leading-relaxed text-[#A7B0C0]">{device.note}</p>
+              <p className="text-xs leading-relaxed text-[#CBD5E1]">{device.note}</p>
             </div>
           </div>
         )}
@@ -114,11 +114,11 @@ export default function DeviceSetupGuide() {
                 <HelpCircle className="w-4 h-4 text-amber-400 shrink-0" />
                 {faq.question}
               </h3>
-              <p className="text-xs text-[#A7B0C0] leading-relaxed">{faq.answer}</p>
+              <p className="text-xs text-[#CBD5E1] leading-relaxed">{faq.answer}</p>
             </div>
           ))}
         </div>
-        <div className="mt-8 text-center text-xs text-[#A7B0C0]">
+        <div className="mt-8 text-center text-xs text-[#CBD5E1]">
           Have more questions? Read our full <Link href="/faq" className="text-amber-400 hover:underline font-bold">FAQ Knowledge Base</Link> or <Link href="/contact" className="text-amber-400 hover:underline font-bold">Contact Smootv Support</Link>.
         </div>
       </div>
@@ -135,7 +135,7 @@ function SetupStep({ children, number, title }: { children: React.ReactNode; num
         </span>
         <div className="flex-1 mt-0.5">
           <h3 className="text-lg font-bold text-[#F8FAFC]">{title}</h3>
-          <div className="mt-2 text-xs leading-relaxed text-[#A7B0C0]">
+          <div className="mt-2 text-xs leading-relaxed text-[#CBD5E1]">
             {children}
           </div>
         </div>
@@ -146,7 +146,7 @@ function SetupStep({ children, number, title }: { children: React.ReactNode; num
 
 function CodeLine({ label, text }: { label: string; text: string }) {
   return (
-    <div className="rounded-xl bg-[#0B0D14] border border-amber-500/20 px-4 py-3 font-mono text-xs text-[#A7B0C0] break-all">
+    <div className="rounded-xl bg-[#0B0D14] border border-amber-500/20 px-4 py-3 font-mono text-xs text-[#CBD5E1] break-all">
       <span className="font-bold text-amber-400 mr-2">{label}:</span> 
       {text}
     </div>

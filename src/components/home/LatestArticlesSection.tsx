@@ -20,14 +20,14 @@ export default function LatestArticlesSection() {
           <h2 className="text-3xl sm:text-5xl font-black text-[#F8FAFC] tracking-tight mb-4">
             Latest IPTV <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Articles &amp; Tutorials</span>
           </h2>
-          <p className="text-[#A7B0C0] text-base sm:text-lg">
+          <p className="text-[#CBD5E1] text-base sm:text-lg">
             Stay up to date with the latest Smootv guides, streaming optimization tips, and device installation insights.
           </p>
         </div>
 
         <div className={`grid gap-8 mb-14 ${displayPosts.length === 1 ? 'grid-cols-1 max-w-lg mx-auto' : displayPosts.length === 2 ? 'grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'}`}>
           {displayPosts.map((post) => (
-            <Link href={`/blog/${post.slug}`} key={post.id}>
+            <Link href={`/blog/${post.slug}`} key={post.id} aria-label={`Read guide: ${post.title}`}>
               <article className="smootv-card rounded-2xl overflow-hidden flex flex-col group cursor-pointer hover:-translate-y-2 transition-all duration-300 h-full">
                 <div className="h-48 relative overflow-hidden shrink-0">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -35,6 +35,8 @@ export default function LatestArticlesSection() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt={post.title}
                     src={post.coverImage || "/Smootv-internet-speed-guide-hero.webp"}
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-[#0B0D14] to-transparent"></div>
                   <span className="absolute top-4 left-4 px-3 py-1 bg-[#0B0D14]/90 backdrop-blur-md text-amber-400 rounded-full text-xs font-extrabold border border-amber-500/30">
@@ -45,10 +47,10 @@ export default function LatestArticlesSection() {
                   <h3 className="text-lg font-bold leading-snug text-[#F8FAFC] group-hover:text-amber-300 transition-colors mb-3 line-clamp-2">
                     {post.title}
                   </h3>
-                  <p className="text-[#A7B0C0] text-xs sm:text-sm mb-6 line-clamp-3 flex-grow leading-relaxed">
+                  <p className="text-[#CBD5E1] text-xs sm:text-sm mb-6 line-clamp-3 flex-grow leading-relaxed">
                     {post.description}
                   </p>
-                  <div className="mt-auto text-[#A7B0C0] text-xs font-medium flex items-center justify-between border-t border-white/5 pt-4">
+                  <div className="mt-auto text-[#CBD5E1] text-xs font-medium flex items-center justify-between border-t border-white/5 pt-4">
                     <span>{post.date}</span>
                     <span className="flex items-center text-amber-400 group-hover:translate-x-1 transition-transform font-bold text-xs">
                       Read Article

@@ -90,17 +90,17 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     h3: ({ node, ...props }: any) => <h3 className="text-xl font-bold mt-8 mb-4 text-[#F8FAFC]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    p: ({ node, ...props }: any) => <p className="mb-6 leading-relaxed text-[#A7B0C0]" {...props} />,
+    p: ({ node, ...props }: any) => <p className="mb-6 leading-relaxed text-[#CBD5E1]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ul: ({ node, ...props }: any) => <ul className="list-disc pl-6 mb-6 space-y-2 text-[#A7B0C0]" {...props} />,
+    ul: ({ node, ...props }: any) => <ul className="list-disc pl-6 mb-6 space-y-2 text-[#CBD5E1]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ol: ({ node, ...props }: any) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-[#A7B0C0]" {...props} />,
+    ol: ({ node, ...props }: any) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-[#CBD5E1]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     a: ({ node, ...props }: any) => <a className="text-amber-400 hover:underline font-bold transition-colors" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    blockquote: ({ node, ...props }: any) => <blockquote className="border-l-4 border-amber-400 pl-4 py-2 mb-6 italic bg-[#07080C] rounded-r text-[#A7B0C0]" {...props} />,
+    blockquote: ({ node, ...props }: any) => <blockquote className="border-l-4 border-amber-400 pl-4 py-2 mb-6 italic bg-[#07080C] rounded-r text-[#CBD5E1]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    table: ({ node, ...props }: any) => <div className="overflow-x-auto mb-8"><table className="w-full text-left border-collapse text-[#A7B0C0]" {...props} /></div>,
+    table: ({ node, ...props }: any) => <div className="overflow-x-auto mb-8"><table className="w-full text-left border-collapse text-[#CBD5E1]" {...props} /></div>,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     th: ({ node, ...props }: any) => <th className="border-b border-white/10 py-3 px-4 font-bold text-[#F8FAFC] bg-[#07080C]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -109,7 +109,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     img: ({ node, alt, src, ...props }: any) => (
       <span className="my-8 flex flex-col items-center">
         <img src={src} alt={alt} className="rounded-xl max-w-full shadow-2xl border border-white/10" {...props} />
-        {alt && <span className="text-xs text-center block mt-2 text-[#A7B0C0]">{alt}</span>}
+        {alt && <span className="text-xs text-center block mt-2 text-[#CBD5E1]">{alt}</span>}
       </span>
     ),
     cta: () => <div className="not-prose my-12"><BlogOfferCard /></div>,
@@ -137,7 +137,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#F8FAFC] mb-6 leading-tight">
             {post.title}
           </h1>
-          <div className="flex items-center justify-center gap-4 text-[#A7B0C0] font-bold uppercase tracking-wider text-xs">
+          <div className="flex items-center justify-center gap-4 text-[#CBD5E1] font-bold uppercase tracking-wider text-xs">
             <span>{post.date}</span>
             <span>•</span>
             <span>{post.author}</span>
@@ -155,7 +155,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
         )}
 
-        <div className="prose prose-lg max-w-none text-[#A7B0C0] 
+        <div className="prose prose-lg max-w-none text-[#CBD5E1] 
           prose-headings:text-[#F8FAFC] prose-headings:font-black 
           prose-a:text-amber-400 hover:prose-a:underline prose-a:font-bold
           prose-strong:text-white prose-strong:font-bold
@@ -218,7 +218,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                       <h3 className="text-sm font-bold text-[#F8FAFC] mb-2 line-clamp-2 group-hover:text-amber-300 transition-colors leading-snug">
                         {relPost.title}
                       </h3>
-                      <p className="text-[10px] text-[#667085] font-bold tracking-widest uppercase mt-auto pt-3 border-t border-white/5">
+                      <p className="text-[10px] text-[#94A3B8] font-bold tracking-widest uppercase mt-auto pt-3 border-t border-white/5">
                         {relPost.date}
                       </p>
                     </div>

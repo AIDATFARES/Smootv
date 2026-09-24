@@ -31,7 +31,7 @@ export default function WhyIPTVDoorSection() {
               Ultimate Smootv Experience.
             </span>
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#A7B0C0]">
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#CBD5E1]">
             Smootv delivers premium live television, thrilling sports events, and on-demand entertainment seamlessly—on any supported device, anywhere.
           </p>
         </div>
@@ -52,7 +52,7 @@ export default function WhyIPTVDoorSection() {
                   <Icon className="h-5 w-5" />
                 </span>
                 <p className="mt-5 text-lg font-extrabold uppercase text-white">{feature.title}</p>
-                <p className="mt-4 text-xs leading-5 text-[#A7B0C0]">{feature.text}</p>
+                <p className="mt-4 text-xs leading-5 text-[#CBD5E1]">{feature.text}</p>
                 <div className="mt-auto flex flex-wrap gap-2 pt-5">
                   {feature.tags.map(tag => (
                     <span key={tag} className="rounded-full border border-white/10 bg-[#07080C] px-2.5 py-1 text-[9px] font-bold tracking-wide text-[#CBD5E1]">
@@ -80,7 +80,7 @@ export default function WhyIPTVDoorSection() {
                 <Icon className="h-5 w-5 shrink-0 text-amber-400" />
                 <span>
                   <span className="block text-sm font-bold text-white">{benefit.title}</span>
-                  <small className="mt-1 block text-[11px] leading-4 text-[#A7B0C0]">{benefit.text}</small>
+                  <small className="mt-1 block text-[11px] leading-4 text-[#CBD5E1]">{benefit.text}</small>
                 </span>
               </motion.div>
             ); 

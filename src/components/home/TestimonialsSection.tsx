@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
               Happy Cord-Cutters
             </span>
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#A7B0C0] animate-fade-up" style={{ animationDelay: '0.1s' }}>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#CBD5E1] animate-fade-up" style={{ animationDelay: '0.1s' }}>
             Read real reviews from our global community. Discover why Smootv is rated as the most reliable, buffer-free IPTV service for live sports, movies, and international channels.
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
               >
                 <Icon className={`mx-auto h-4 w-4 ${metric.tone}`} />
                 <span className="mt-2 block text-base font-bold text-white">{metric.value}</span>
-                <small className="mt-0.5 block text-[8px] font-bold uppercase tracking-wide text-[#A7B0C0]">
+                <small className="mt-0.5 block text-[8px] font-bold uppercase tracking-wide text-[#CBD5E1]">
                   {metric.label}
                 </small>
               </div>

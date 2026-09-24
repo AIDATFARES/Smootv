@@ -29,7 +29,7 @@ export default function IPTVHeroMockup() {
             <div className="w-3 h-3 rounded-full bg-red-500/80" />
             <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
             <div className="w-3 h-3 rounded-full bg-green-500/80" />
-            <span className="ml-2 text-xs font-mono text-[#8E98A8]">SMOOTV-PLAYER v4.2</span>
+            <span className="ml-2 text-xs font-mono text-[#94A3B8]">SMOOTV-PLAYER v4.2</span>
           </div>
 
           <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ export default function IPTVHeroMockup() {
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 620px"
             className="object-cover object-center brightness-95 group-hover:scale-105 transition-transform duration-700"
-            priority
+            loading="lazy"
           />
 
           {/* Simulated Video Frame Overlay */}
@@ -107,7 +107,7 @@ export default function IPTVHeroMockup() {
                   <span className="text-base">{ch.icon}</span>
                   <div>
                     <div className="font-bold text-white text-xs">{ch.name}</div>
-                    <div className="text-[10px] text-[#8E98A8]">{ch.epg}</div>
+                    <div className="text-[10px] text-[#94A3B8]">{ch.epg}</div>
                   </div>
                 </div>
                 <span className="px-2 py-0.5 rounded text-[10px] font-extrabold bg-amber-500/15 text-amber-400 border border-amber-500/25">

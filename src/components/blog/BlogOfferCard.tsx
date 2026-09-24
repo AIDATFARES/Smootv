@@ -24,7 +24,7 @@ export default function BlogOfferCard() {
           </h3>
           
           {/* Subtitle / Description */}
-          <p className="text-[#A7B0C0] text-sm md:text-base mb-4 max-w-2xl leading-relaxed">
+          <p className="text-[#CBD5E1] text-sm md:text-base mb-4 max-w-2xl leading-relaxed">
             Test our premium anti-freeze 4K IPTV service for 24 hours with zero commitment. Instant setup to watch over 50,000+ live channels, sports, and 200,000+ VODs on any device!
           </p>
 

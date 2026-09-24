@@ -35,7 +35,7 @@ export default function WebPlayerMockup() {
               <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
             </div>
             {/* Fake URL Bar */}
-            <div className="w-full bg-[#111621] px-3 py-1 rounded-md text-[11px] font-mono text-[#667085] flex items-center gap-1.5 border border-white/5 truncate">
+            <div className="w-full bg-[#111621] px-3 py-1 rounded-md text-[11px] font-mono text-[#94A3B8] flex items-center gap-1.5 border border-white/5 truncate">
               <span className="text-emerald-400 text-[10px]">https://</span>web.smootv.top/player
             </div>
           </div>
@@ -55,13 +55,13 @@ export default function WebPlayerMockup() {
             <div>
               {/* Search Bar */}
               <div className="relative mb-3">
-                <Search className="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-[#667085]" />
+                <Search className="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-[#94A3B8]" />
                 <input
                   type="text"
                   placeholder="Search 50,000+ channels..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-[#111621] text-xs text-white placeholder-[#667085] pl-8 pr-2 py-1.5 rounded-md border border-white/5 focus:outline-none focus:border-amber-500/40"
+                  className="w-full bg-[#111621] text-xs text-white placeholder-[#94A3B8] pl-8 pr-2 py-1.5 rounded-md border border-white/5 focus:outline-none focus:border-amber-500/40"
                 />
               </div>
 
@@ -74,7 +74,7 @@ export default function WebPlayerMockup() {
                     className={`text-[10px] font-bold px-2 py-1 rounded-md whitespace-nowrap transition-colors shrink-0 ${
                       selectedCategory === cat
                         ? "bg-gradient-to-r from-amber-400 to-yellow-500 text-black font-black shadow-sm"
-                        : "bg-[#111621] text-[#A7B0C0] hover:text-white"
+                        : "bg-[#111621] text-[#CBD5E1] hover:text-white"
                     }`}
                   >
                     {cat}
@@ -90,7 +90,7 @@ export default function WebPlayerMockup() {
                     className={`p-2 rounded-lg text-left transition-all border flex items-center justify-between cursor-pointer ${
                       ch.id === 1
                         ? "bg-[#141926] border-amber-500/40 text-white shadow-[0_0_10px_rgba(245,158,11,0.15)]"
-                        : "bg-[#0B0D14]/60 border-white/[0.03] text-[#A7B0C0] hover:border-white/10"
+                        : "bg-[#0B0D14]/60 border-white/[0.03] text-[#CBD5E1] hover:border-white/10"
                     }`}
                   >
                     <div className="truncate pr-1">
@@ -98,7 +98,7 @@ export default function WebPlayerMockup() {
                         {ch.isFav && <Star className="w-2.5 h-2.5 fill-amber-400 text-amber-400 shrink-0" />}
                         {ch.name}
                       </div>
-                      <div className="text-[9px] text-[#667085] truncate">{ch.nowPlaying}</div>
+                      <div className="text-[9px] text-[#94A3B8] truncate">{ch.nowPlaying}</div>
                     </div>
                     <span className="text-[8px] font-extrabold bg-amber-500/10 text-amber-400 px-1.5 py-0.5 rounded shrink-0">
                       {ch.status}
@@ -108,7 +108,7 @@ export default function WebPlayerMockup() {
               </div>
             </div>
 
-            <div className="pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-[#667085]">
+            <div className="pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-[#94A3B8]">
               <span>EPG Connected</span>
               <span className="text-emerald-400 font-bold">0ms Delay</span>
             </div>
@@ -156,7 +156,7 @@ export default function WebPlayerMockup() {
 
             {/* EPG Timeline Footer */}
             <div className="mt-3 bg-[#07080C] p-2 rounded-lg border border-white/5 text-[10px]">
-              <div className="text-[#667085] font-semibold mb-1">PROGRAM GUIDE (EPG)</div>
+              <div className="text-[#94A3B8] font-semibold mb-1">PROGRAM GUIDE (EPG)</div>
               <div className="flex items-center justify-between text-white font-medium">
                 <span>15:00 - Premier League Build-up</span>
                 <span className="text-amber-400 font-bold">NOW</span>
