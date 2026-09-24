@@ -17,7 +17,7 @@ type Plan = {
 };
 
 const commonFeatures = [
-  "area69iptv subscription for {devices} Device{s}",
+  "Smootv subscription for {devices} Device{s}",
   "Uncompressed Ultra HD & 4K Streaming",
   "50,000+ Premium Live International Channels",
   "200,000+ VOD Movies & Series (Daily Updates)",
@@ -95,7 +95,7 @@ export default function PricingPageContent() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the area69iptv ${plan.name} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the Smootv ${plan.name} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/447882781998?text=${text}`, "_blank", "noopener,noreferrer");
   }
@@ -106,27 +106,27 @@ export default function PricingPageContent() {
         
         {/* Page Header */}
         <header className="mx-auto max-w-3xl text-center mb-16">
-          <div className="inline-flex items-center gap-2 rounded-full bg-blue-500/10 border border-cyan-500/20 px-4 py-1 mb-6">
-            <Gift className="h-4 w-4 text-cyan-400" />
-            <span className="text-xs font-bold text-cyan-400 tracking-widest uppercase">
+          <div className="inline-flex items-center gap-2 rounded-full bg-amber-500/10 border border-amber-500/25 px-4 py-1 mb-6 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+            <Gift className="h-4 w-4 text-amber-400" />
+            <span className="text-xs font-bold text-amber-400 tracking-widest uppercase">
               TRANSPARENT PLANS &amp; PRICING
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-[#F8FAFC]">
-            AREA69IPTV <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">SUBSCRIPTION PLANS</span>
+            SMOOTV <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">SUBSCRIPTION PLANS</span>
           </h1>
           <p className="mx-auto mt-6 text-base sm:text-lg text-[#A7B0C0] font-normal leading-relaxed max-w-2xl">
-            Choose your area69iptv subscription plan. Enjoy bigger savings on 6-month and 12-month packages with simultaneous multi-device connection options.
+            Choose your Smootv subscription plan. Enjoy bigger savings on 6-month and 12-month packages with simultaneous multi-device connection options.
           </p>
         </header>
 
         {/* Device Selector */}
         <div className="mx-auto mb-16 flex flex-col items-center">
           <div className="flex items-center gap-2 mb-4">
-            <Tv className="h-4 w-4 text-cyan-400" />
+            <Tv className="h-4 w-4 text-amber-400" />
             <p className="text-xs font-bold uppercase tracking-widest text-[#A7B0C0]">Select Number of Devices</p>
           </div>
-          <div className="inline-flex rounded-full border border-white/10 p-1.5 bg-[#0D111B]">
+          <div className="inline-flex rounded-full border border-white/10 p-1.5 bg-[#0B0D14]">
             {[1, 2, 3].map((count) => {
               const selected = devices === count;
               return (
@@ -135,7 +135,7 @@ export default function PricingPageContent() {
                   onClick={() => setDevices(count)}
                   className={`rounded-full px-6 py-2.5 text-xs sm:text-sm font-bold transition-all uppercase tracking-wide ${
                     selected
-                      ? "btn-primary-strimo"
+                      ? "btn-primary-smootv"
                       : "text-[#A7B0C0] hover:text-white"
                   }`}
                 >
@@ -153,17 +153,17 @@ export default function PricingPageContent() {
               key={plan.id}
               className={`relative flex flex-col rounded-2xl p-6 text-left transition-all duration-300 ${
                 plan.popular
-                  ? "strimo-featured-card md:scale-105 z-10"
-                  : "strimo-card"
+                  ? "smootv-featured-card md:scale-105 z-10"
+                  : "smootv-card"
               }`}
             >
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
-                <span className="block text-cyan-400 font-extrabold uppercase tracking-widest text-xs">
+                <span className="block text-amber-400 font-extrabold uppercase tracking-widest text-xs">
                   {plan.badge}
                 </span>
                 {plan.popular && (
-                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-[9px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider">
+                  <span className="bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black text-[9px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-[0_0_15px_rgba(245,158,11,0.4)]">
                     MOST POPULAR
                   </span>
                 )}
@@ -178,8 +178,8 @@ export default function PricingPageContent() {
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <div className="inline-flex rounded-full bg-cyan-500/10 border border-cyan-500/20 px-3 py-1">
-                    <span className="text-[10px] font-bold text-cyan-300 uppercase tracking-wider">
+                  <div className="inline-flex rounded-full bg-amber-500/10 border border-amber-500/25 px-3 py-1">
+                    <span className="text-[10px] font-bold text-amber-300 uppercase tracking-wider">
                       JUST ${monthlyPrice(plan)} / MONTH
                     </span>
                   </div>
@@ -196,7 +196,7 @@ export default function PricingPageContent() {
               <ul className="my-4 flex-grow space-y-3">
                 {commonFeatures.map((featureText, idx) => (
                   <li key={idx} className="flex items-start gap-2.5 text-xs text-[#A7B0C0]">
-                    <CheckCircle2 className="h-4 w-4 shrink-0 text-cyan-400 mt-0.5" />
+                    <CheckCircle2 className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
                     <span>
                       {featureText.replace('{devices}', devices.toString()).replace('{s}', devices > 1 ? 's' : '')}
                     </span>
@@ -210,8 +210,8 @@ export default function PricingPageContent() {
                   onClick={() => handleOrder(plan)}
                   className={`w-full py-4 text-xs font-extrabold uppercase tracking-wider rounded-full transition-all flex items-center justify-center gap-2 ${
                     plan.popular
-                      ? "btn-primary-strimo"
-                      : "btn-secondary-strimo"
+                      ? "btn-primary-smootv"
+                      : "btn-secondary-smootv"
                   }`}
                 >
                   <span>{plan.buttonText}</span>
@@ -223,21 +223,21 @@ export default function PricingPageContent() {
         </div>
 
         {/* Free Trial Banner */}
-        <div className="mx-auto mt-16 max-w-3xl flex flex-col sm:flex-row items-center justify-between gap-4 rounded-2xl bg-[#0D111B] p-6 border border-white/10">
+        <div className="mx-auto mt-16 max-w-3xl flex flex-col sm:flex-row items-center justify-between gap-4 rounded-2xl bg-[#0B0D14] p-6 border border-amber-500/20 shadow-[0_4px_25px_rgba(0,0,0,0.5)]">
           <div className="flex items-center gap-4">
-            <div className="w-10 h-10 rounded-xl bg-blue-600/20 text-cyan-400 border border-cyan-500/30 flex items-center justify-center shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/30 flex items-center justify-center shrink-0">
               <Gift className="h-5 w-5" />
             </div>
             <div>
-              <h3 className="text-base font-bold text-white uppercase">Want to test area69iptv first?</h3>
+              <h3 className="text-base font-bold text-white uppercase">Want to test Smootv first?</h3>
               <p className="text-xs text-[#A7B0C0]">Request a free trial pass to evaluate our 4K servers on your device.</p>
             </div>
           </div>
           <a
-            href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20pass."
+            href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20pass%20for%20Smootv."
             target="_blank"
             rel="noreferrer"
-            className="btn-primary-strimo px-8 py-3 text-xs uppercase tracking-wider whitespace-nowrap font-extrabold"
+            className="btn-primary-smootv px-8 py-3 text-xs uppercase tracking-wider whitespace-nowrap font-extrabold shadow-[0_0_15px_rgba(245,158,11,0.25)]"
           >
             GET FREE TRIAL
           </a>
@@ -246,11 +246,11 @@ export default function PricingPageContent() {
         {/* Features Grid */}
         <section className="mt-28">
           <div className="text-center mb-14">
-            <span className="inline-block py-1 px-4 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-bold tracking-widest uppercase mb-4">
+            <span className="inline-block py-1 px-4 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-400 text-xs font-bold tracking-widest uppercase mb-4 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
               INCLUDED WITH ALL PLANS
             </span>
             <h2 className="text-3xl md:text-5xl font-black text-[#F8FAFC]">
-              Everything You Need for <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Ultimate IPTV Streaming</span>
+              Everything You Need for <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Ultimate IPTV Streaming</span>
             </h2>
           </div>
 
@@ -258,9 +258,9 @@ export default function PricingPageContent() {
             {includedFeatures.map(({ icon: Icon, title, text }) => (
               <div
                 key={title}
-                className="strimo-card p-6 rounded-2xl flex flex-col gap-3"
+                className="smootv-card p-6 rounded-2xl flex flex-col gap-3"
               >
-                <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400">
                   <Icon className="w-5 h-5" />
                 </div>
                 <h3 className="text-white font-bold text-base">{title}</h3>
@@ -275,9 +275,9 @@ export default function PricingPageContent() {
           <h2 className="text-center text-3xl font-black text-white uppercase">Billing FAQ</h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
             {billingQuestions.map((item) => (
-              <div className="strimo-card p-6 rounded-xl space-y-2" key={item.question}>
+              <div className="smootv-card p-6 rounded-xl space-y-2" key={item.question}>
                 <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <HelpCircle className="w-4 h-4 text-cyan-400 shrink-0" />
+                  <HelpCircle className="w-4 h-4 text-amber-400 shrink-0" />
                   {item.question}
                 </h3>
                 <p className="text-xs text-[#A7B0C0] leading-relaxed">{item.answer}</p>

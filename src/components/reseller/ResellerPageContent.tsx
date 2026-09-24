@@ -53,7 +53,7 @@ const creditPlans: CreditPlan[] = [
 ];
 
 const planFeatures = [
-  "1 Credit = 1 Month area69iptv Subscription",
+  "1 Credit = 1 Month Smootv Subscription",
   "Free Trial Creation Everyday",
   "Custom Channel Category Groups",
   "Pay-As-You-Go Credit System",
@@ -67,7 +67,7 @@ const advantages = [
     icon: ShoppingCart,
     title: "UNIVERSAL COMPATIBILITY",
     description:
-      "area69iptv reseller streams work seamlessly on Smart TVs, Firestick, Android Box, MAG, Apple TV, iOS, and PC.",
+      "Smootv reseller streams work seamlessly on Smart TVs, Firestick, Android Box, MAG, Apple TV, iOS, and PC.",
   },
   {
     icon: Server,
@@ -93,12 +93,12 @@ const resellerFaqs = [
   {
     question: "DOES THE CONTROL PANEL EXPIRE?",
     answer:
-      "No, your area69iptv reseller control panel access remains active permanently, and your credit balance never expires.",
+      "No, your Smootv reseller control panel access remains active permanently, and your credit balance never expires.",
   },
   {
     question: "CAN I RENEW A CLIENT SUBSCRIPTION?",
     answer:
-      "Yes! You can extend or renew any client subscription directly from your area69iptv reseller dashboard with a single click.",
+      "Yes! You can extend or renew any client subscription directly from your Smootv reseller dashboard with a single click.",
   },
   {
     question: "CAN I MODIFY CLIENT LINES OR PLAYLIST FORMATS?",
@@ -131,8 +131,8 @@ export default function ResellerPageContent() {
 
   const handleOrderPanel = (plan?: CreditPlan) => {
     const message = plan
-      ? `Hello! I would like to order the area69iptv Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
-      : `Hello! I am interested in becoming an area69iptv Reseller and would like to request panel access.`;
+      ? `Hello! I would like to order the Smootv Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
+      : `Hello! I am interested in becoming a Smootv Reseller and would like to request panel access.`;
     window.open(
       `https://wa.me/447882781998?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -141,7 +141,7 @@ export default function ResellerPageContent() {
   };
 
   const handleFreeTrial = () => {
-    const message = `Hello! I am interested in testing an area69iptv Reseller Panel demo account.`;
+    const message = `Hello! I am interested in testing a Smootv Reseller Panel demo account.`;
     window.open(
       `https://wa.me/447882781998?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -155,14 +155,14 @@ export default function ResellerPageContent() {
         
         {/* HERO SECTION */}
         <header className="relative mx-auto max-w-4xl text-center">
-          <span className="inline-flex items-center gap-2 rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-cyan-400">
+          <span className="inline-flex items-center gap-2 rounded-full border border-amber-500/25 bg-amber-500/10 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
             <Sparkles className="h-3.5 w-3.5" />
-            AREA69IPTV RESELLER PROGRAM
+            SMOOTV RESELLER PROGRAM
           </span>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            AREA69IPTV <br />
-            <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            SMOOTV <br />
+            <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">
               RESELLER PANEL
             </span>
           </h1>
@@ -174,7 +174,7 @@ export default function ResellerPageContent() {
           <div className="mt-8 flex items-center justify-center gap-4">
             <button
               onClick={handleFreeTrial}
-              className="btn-primary-strimo px-8 py-3.5 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2"
+              className="btn-primary-smootv px-8 py-3.5 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
             >
               <span>Test Demo Panel</span>
               <ArrowRight className="w-4 h-4" />
@@ -186,10 +186,10 @@ export default function ResellerPageContent() {
         <div className="mt-24">
           <div className="text-center">
             <h2 className="text-3xl sm:text-5xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-              Reseller <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Credit Packages</span>
+              Reseller <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Credit Packages</span>
             </h2>
             <p className="mt-3 text-base text-[#A7B0C0]">
-              High profit margins with non-expiring credits and automated area69iptv panel activation.
+              High profit margins with non-expiring credits and automated Smootv panel activation.
             </p>
           </div>
 
@@ -199,23 +199,23 @@ export default function ResellerPageContent() {
                 key={plan.id}
                 className={`relative flex flex-col rounded-2xl p-6 transition-all duration-300 ${
                   plan.popular
-                    ? "strimo-featured-card scale-105 z-10"
-                    : "strimo-card"
+                    ? "smootv-featured-card scale-105 z-10"
+                    : "smootv-card"
                 }`}
               >
                 {plan.popular && (
-                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-white shadow-lg whitespace-nowrap">
+                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-black shadow-[0_0_15px_rgba(245,158,11,0.4)] whitespace-nowrap">
                     MOST POPULAR
                   </span>
                 )}
                 {plan.bestValue && (
-                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-cyan-500/20 border border-cyan-500/40 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-cyan-300 whitespace-nowrap">
+                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-amber-500/20 border border-amber-500/40 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-amber-300 whitespace-nowrap">
                     BEST VALUE
                   </span>
                 )}
 
                 <div className="text-center">
-                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-cyan-400">
+                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-amber-400">
                     RESELLER CREDIT
                   </span>
                   <h3 className="mt-1 text-2xl font-black text-[#F8FAFC]">
@@ -223,7 +223,7 @@ export default function ResellerPageContent() {
                   </h3>
                 </div>
 
-                <div className="my-5 rounded-xl bg-[#080B14] border border-white/10 py-4 text-center">
+                <div className="my-5 rounded-xl bg-[#07080C] border border-white/10 py-4 text-center">
                   <span className="text-4xl font-black text-white">
                     ${plan.price}
                   </span>
@@ -232,7 +232,7 @@ export default function ResellerPageContent() {
                 <ul className="flex-grow space-y-3 border-t border-white/5 pt-4 text-xs text-[#A7B0C0]">
                   {planFeatures.map((feature) => (
                     <li className="flex items-start gap-2" key={feature}>
-                      <Check className="h-4 w-4 shrink-0 text-cyan-400 mt-0.5" />
+                      <Check className="h-4 w-4 shrink-0 text-amber-400 mt-0.5" />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -243,12 +243,12 @@ export default function ResellerPageContent() {
                   onClick={() => handleOrderPanel(plan)}
                   className={`mt-6 w-full py-3.5 text-xs font-extrabold uppercase tracking-wider rounded-full transition-all flex items-center justify-center gap-2 ${
                     plan.popular
-                      ? "btn-primary-strimo"
-                      : "btn-secondary-strimo"
+                      ? "btn-primary-smootv"
+                      : "btn-secondary-smootv"
                   }`}
                 >
                   <span>Order Panel</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
+                  <ArrowRight className="w-4 h-4" />
                 </button>
               </article>
             ))}
@@ -258,7 +258,7 @@ export default function ResellerPageContent() {
         {/* ADVANTAGES OF IPTV RESELLER */}
         <div className="mt-28">
           <h2 className="text-center text-3xl sm:text-5xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            Why Partner with <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">area69iptv?</span>
+            Why Partner with <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv?</span>
           </h2>
 
           <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -267,9 +267,9 @@ export default function ResellerPageContent() {
               return (
                 <div
                   key={item.title}
-                  className="strimo-card p-6 rounded-2xl flex flex-col items-start"
+                  className="smootv-card p-6 rounded-2xl flex flex-col items-start"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-5">
                     <Icon className="h-6 w-6" />
                   </div>
                   <h3 className="text-sm font-bold uppercase tracking-wider text-white mb-2">
@@ -287,7 +287,7 @@ export default function ResellerPageContent() {
         {/* RESELLER FAQ */}
         <div className="mx-auto mt-28 max-w-4xl">
           <h2 className="text-center text-3xl sm:text-4xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            area69iptv Reseller <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">FAQ</span>
+            Smootv Reseller <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">FAQ</span>
           </h2>
 
           <div className="mt-10 space-y-3">
@@ -296,19 +296,19 @@ export default function ResellerPageContent() {
               return (
                 <div
                   key={faq.question}
-                  className="strimo-card rounded-xl overflow-hidden"
+                  className="smootv-card rounded-xl overflow-hidden"
                 >
                   <button
                     onClick={() => toggleFaq(index)}
-                    className="flex w-full items-center justify-between p-5 text-left font-bold text-white hover:text-cyan-400 transition-colors"
+                    className="flex w-full items-center justify-between p-5 text-left font-bold text-white hover:text-amber-300 transition-colors"
                   >
                     <span className="text-xs sm:text-sm tracking-wide uppercase font-extrabold">
                       {faq.question}
                     </span>
                     {isOpen ? (
-                      <ChevronUp className="h-5 w-5 shrink-0 text-cyan-400" />
+                      <ChevronUp className="h-5 w-5 shrink-0 text-amber-400" />
                     ) : (
-                      <ChevronDown className="h-5 w-5 shrink-0 text-cyan-400" />
+                      <ChevronDown className="h-5 w-5 shrink-0 text-amber-400" />
                     )}
                   </button>
 
@@ -325,9 +325,9 @@ export default function ResellerPageContent() {
           <div className="mt-12 flex justify-center">
             <button
               onClick={() => handleOrderPanel()}
-              className="btn-primary-strimo px-10 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2"
+              className="btn-primary-smootv px-10 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
             >
-              <span>Become area69iptv Reseller</span>
+              <span>Become Smootv Reseller</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

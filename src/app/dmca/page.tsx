@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Legal Disclaimer & DMCA | area69iptv",
-  description: "Legal Disclaimer and DMCA policy for area69iptv.",
+  title: "Smootv - DMCA Copyright Policy & Legal Disclaimer",
+  description:
+    "Official DMCA copyright guidelines, service disclaimer, and intellectual property notices for Smootv streaming platform.",
   alternates: {
     canonical: "/dmca",
   },
@@ -19,13 +20,13 @@ const sections = [
   {
     title: "Content Ownership and Hosting",
     content: [
-      "area69iptv does not possess, manage, upload, store, or distribute copyrighted materials. All streams available via your account are sourced from external parties on the public internet. Mentions of channels, logos, or trademarks are solely for identification purposes and are owned by their respective entities.",
+      "Smootv does not possess, manage, upload, store, or distribute copyrighted materials. All streams available via your account are sourced from external parties on the public internet. Mentions of channels, logos, or trademarks are solely for identification purposes and are owned by their respective entities.",
     ],
   },
   {
     title: "Availability and Service Changes",
     content: [
-      <>Channel and VOD options may vary in availability, quality (including 4K/FHD/HD), features, plans, and <Link className="font-semibold text-[#36a9ff] hover:text-[#36a9ff]" href="/pricing">pricing</Link>, and can be modified or removed by region without prior notification. We do not assure the availability of any particular <Link className="font-semibold text-[#36a9ff] hover:text-[#36a9ff]" href="/channels">channel</Link>, event, or title.</>,
+      <>Channel and VOD options may vary in availability, quality (including 4K/FHD/HD), features, plans, and <Link className="font-semibold text-amber-400 hover:underline" href="/pricing">pricing</Link>, and can be modified or removed by region without prior notification. We do not assure the availability of any particular <Link className="font-semibold text-amber-400 hover:underline" href="/channels">channel</Link>, event, or title.</>,
     ],
   },
   {
@@ -49,13 +50,13 @@ const sections = [
   {
     title: "Limitation of Liability",
     content: [
-      "area69iptv, its owners, affiliates, employees, and agents shall not be liable to the fullest extent permitted by law for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, or goodwill connected to your use of the site or service.",
+      "Smootv, its owners, affiliates, employees, and agents shall not be liable to the fullest extent permitted by law for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, or goodwill connected to your use of the site or service.",
     ],
   },
   {
     title: "Indemnification",
     content: [
-      "You agree to defend, indemnify, and shield area69iptv from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) related to your use of the service or any infringement of this disclaimer or applicable law.",
+      "You agree to defend, indemnify, and shield Smootv from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) related to your use of the service or any infringement of this disclaimer or applicable law.",
     ],
   },
   {
@@ -85,37 +86,37 @@ export default function DmcaPage() {
   const currentDate = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   
   return (
-    <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16">
+    <main className="flex-grow px-5 pb-20 pt-28 sm:px-8">
       <article className="mx-auto max-w-4xl">
-        <header className="border-b border-black/10 pb-10 text-center mx-auto max-w-3xl">
-          <span className="inline-flex rounded-full border border-[#36a9ff]/35 bg-[#36a9ff]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#36a9ff]">Legal information</span>
+        <header className="border-b border-amber-500/10 pb-10 text-center mx-auto max-w-3xl">
+          <span className="inline-flex rounded-full border border-amber-500/25 bg-amber-500/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.15)]">Legal information</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-            <span className="block text-black">Legal Disclaimer</span>
-            <span className="mt-1 block text-[#36a9ff]">&amp; DMCA Notice.</span>
+            <span className="block text-white">Legal Disclaimer</span>
+            <span className="mt-1 block bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">&amp; DMCA Notice.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-gray-600">Last updated: {currentDate}</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#A7B0C0]">Last updated: {currentDate}</p>
         </header>
 
-        <div className="mt-10 space-y-10 text-base leading-7 text-on-surface-variant">
+        <div className="mt-10 space-y-10 text-base leading-7 text-[#A7B0C0]">
           <div className="space-y-4">
             <p>Content featured on this website is meant for general informational use and does not serve as legal advice. By engaging with our site or services, you agree to this disclaimer.</p>
-            <div className="rounded-xl border border-accent-500/20 bg-accent-500/10 p-5 text-sm">
-              <strong className="text-black">Important:</strong> area69iptv delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided 'as is' for general guidance, not legal counsel.
+            <div className="rounded-xl border border-amber-500/25 bg-amber-500/10 p-5 text-sm text-[#A7B0C0]">
+              <strong className="text-white">Important:</strong> Smootv delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided &apos;as is&apos; for general guidance, not legal counsel.
             </div>
           </div>
 
           {sections.map((section, index) => (
             <section key={section.title}>
-              <h2 className="text-2xl font-bold text-black">{index + 1}. {section.title}</h2>
+              <h2 className="text-2xl font-bold text-white">{index + 1}. {section.title}</h2>
               {section.content.map((paragraph, i) => <p className="mt-4" key={i}>{paragraph}</p>)}
-              {section.items && section.items.length > 0 && <ul className="mt-4 list-disc space-y-2 pl-6 marker:text-[#36a9ff]">{section.items.map((item, i) => <li key={i}>{item}</li>)}</ul>}
+              {section.items && section.items.length > 0 && <ul className="mt-4 list-disc space-y-2 pl-6 marker:text-amber-400">{section.items.map((item, i) => <li key={i}>{item}</li>)}</ul>}
               {section.after && <p className="mt-4">{section.after}</p>}
             </section>
           ))}
           
           <section>
-            <h2 className="text-2xl font-bold text-black">11. Contact</h2>
-            <p className="mt-4">For any inquiries, refer to our Terms of Service and <Link className="font-semibold text-[#36a9ff] hover:text-[#36a9ff]" href="/privacy-policy">Privacy Policy</Link>, or contact <Link className="font-semibold text-[#36a9ff] hover:text-[#36a9ff]" href="/contact">support</Link>.</p>
+            <h2 className="text-2xl font-bold text-white">11. Contact</h2>
+            <p className="mt-4">For any inquiries, refer to our Terms of Service and <Link className="font-semibold text-amber-400 hover:underline" href="/privacy-policy">Privacy Policy</Link>, or contact <Link className="font-semibold text-amber-400 hover:underline" href="/contact">support</Link>.</p>
           </section>
         </div>
       </article>

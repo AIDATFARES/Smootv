@@ -40,8 +40,8 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#060810]/95 backdrop-blur-xl border-b border-cyan-500/20 py-3 shadow-[0_10px_30px_rgba(0,0,0,0.8)]"
-          : "bg-[#060810]/80 backdrop-blur-md border-b border-white/5 py-4"
+          ? "bg-[#07080C]/95 backdrop-blur-xl border-b border-amber-500/20 py-3 shadow-[0_10px_30px_rgba(0,0,0,0.85)]"
+          : "bg-[#07080C]/80 backdrop-blur-md border-b border-amber-500/10 py-4"
       }`}
     >
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-8 flex items-center justify-between relative">
@@ -52,7 +52,7 @@ export default function Navbar() {
         </Link>
 
         {/* CENTER CAPSULE NAVIGATION BAR */}
-        <nav className="hidden lg:flex items-center gap-1.5 rounded-full border border-cyan-400/40 bg-[#080B14]/90 p-1.5 backdrop-blur-md shadow-[0_0_25px_rgba(6,182,212,0.15)]">
+        <nav className="hidden lg:flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-[#0D0F17]/90 p-1.5 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.12)]">
           {navItems.map((item) => {
             const isActive =
               item.href === "/"
@@ -65,8 +65,8 @@ export default function Navbar() {
                 href={item.href}
                 className={`px-5 py-2 text-xs font-black tracking-wider uppercase rounded-full transition-all duration-300 whitespace-nowrap ${
                   isActive
-                    ? "bg-gradient-to-r from-cyan-400 via-cyan-300 to-blue-500 text-black shadow-[0_0_18px_rgba(6,182,212,0.6)]"
-                    : "text-[#A7B0C0] hover:text-white hover:bg-white/5 font-extrabold"
+                    ? "bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black shadow-[0_0_18px_rgba(245,158,11,0.5)] font-black"
+                    : "text-[#CBD5E1] hover:text-white hover:bg-white/5 font-extrabold"
                 }`}
               >
                 {item.name}
@@ -78,10 +78,10 @@ export default function Navbar() {
         {/* RIGHT ACTION BUTTON */}
         <div className="hidden sm:flex items-center gap-4 shrink-0 z-20">
           <a
-            href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20get%20started%20with%20area69iptv."
+            href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20get%20started%20with%20Smootv."
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-cyan-400 hover:bg-cyan-300 text-black text-xs font-black uppercase tracking-wider px-7 py-3 shadow-[0_0_22px_rgba(6,182,212,0.6)] hover:shadow-[0_0_32px_rgba(6,182,212,0.95)] transition-all duration-300 active:scale-[0.98]"
+            className="rounded-full bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-black text-xs font-black uppercase tracking-wider px-7 py-3 shadow-[0_0_22px_rgba(245,158,11,0.5)] hover:shadow-[0_0_32px_rgba(245,158,11,0.8)] transition-all duration-300 active:scale-[0.98]"
           >
             GET STARTED
           </a>
@@ -90,16 +90,16 @@ export default function Navbar() {
         {/* MOBILE MENU BUTTON */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden text-white p-2.5 rounded-full bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 transition-colors z-20"
+          className="lg:hidden text-white p-2.5 rounded-full bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 transition-colors z-20"
           aria-label="Toggle navigation menu"
         >
-          {mobileMenuOpen ? <X className="w-6 h-6 text-cyan-400" /> : <Menu className="w-6 h-6 text-cyan-400" />}
+          {mobileMenuOpen ? <X className="w-6 h-6 text-amber-400" /> : <Menu className="w-6 h-6 text-amber-400" />}
         </button>
       </div>
 
       {/* MOBILE DROPDOWN MENU */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#060810]/98 border-b border-cyan-500/20 px-6 py-6 space-y-3 animate-in slide-in-from-top duration-300">
+        <div className="lg:hidden bg-[#07080C]/98 border-b border-amber-500/20 px-6 py-6 space-y-3 animate-in slide-in-from-top duration-300">
           <nav className="flex flex-col space-y-2">
             {navItems.map((item) => {
               const isActive =
@@ -114,8 +114,8 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`px-4 py-2.5 rounded-xl text-xs font-black tracking-wider uppercase transition-colors ${
                     isActive
-                      ? "bg-cyan-400 text-black font-black"
-                      : "text-[#A7B0C0] hover:text-white hover:bg-white/5"
+                      ? "bg-gradient-to-r from-amber-400 to-yellow-500 text-black font-black"
+                      : "text-[#CBD5E1] hover:text-white hover:bg-white/5"
                   }`}
                 >
                   {item.name}
@@ -125,10 +125,10 @@ export default function Navbar() {
           </nav>
           <div className="pt-4 border-t border-white/10 flex flex-col gap-3">
             <a
-              href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20get%20started%20with%20area69iptv."
+              href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20get%20started%20with%20Smootv."
               target="_blank"
               rel="noreferrer"
-              className="w-full text-center py-3.5 rounded-full bg-cyan-400 text-black text-xs font-black uppercase tracking-wider shadow-[0_0_20px_rgba(6,182,212,0.6)]"
+              className="w-full text-center py-3.5 rounded-full bg-gradient-to-r from-amber-400 to-yellow-500 text-black text-xs font-black uppercase tracking-wider shadow-[0_0_20px_rgba(245,158,11,0.5)]"
             >
               GET STARTED
             </a>

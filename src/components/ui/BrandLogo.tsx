@@ -8,11 +8,11 @@ export default function BrandLogo({ compact = false }: BrandLogoProps) {
   return (
     <div className={`flex items-center gap-3 select-none font-sans ${compact ? "scale-90 origin-left" : ""}`}>
       {/* Stream Icon */}
-      <div className="relative flex items-center justify-center w-9 h-9 rounded-lg bg-gradient-to-br from-blue-600 via-cyan-500 to-purple-600 p-[1px] shadow-[0_0_15px_rgba(6,182,212,0.3)]">
-        <div className="w-full h-full bg-[#060810] rounded-[7px] flex items-center justify-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-cyan-500/10 to-purple-500/20" />
+      <div className="relative flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-amber-300 via-yellow-400 to-amber-600 p-[1px] shadow-[0_0_18px_rgba(245,158,11,0.35)]">
+        <div className="w-full h-full bg-[#07080C] rounded-[11px] flex items-center justify-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-amber-500/25 via-yellow-500/15 to-amber-600/25" />
           <svg
-            className="w-4 h-4 text-cyan-400 relative z-10 translate-x-[1px]"
+            className="w-4 h-4 text-amber-400 relative z-10 translate-x-[1px]"
             viewBox="0 0 24 24"
             fill="currentColor"
           >
@@ -22,9 +22,12 @@ export default function BrandLogo({ compact = false }: BrandLogoProps) {
       </div>
 
       {/* Brand Text */}
-      <div className="flex items-center gap-1 leading-none">
+      <div className="flex items-center gap-1.5 leading-none">
         <span className="text-xl sm:text-2xl font-black tracking-tight text-[#F8FAFC]">
-          area69<span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">iptv</span>
+          Smoo<span className="bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 bg-clip-text text-transparent">tv</span>
+        </span>
+        <span className="px-1.5 py-0.5 text-[9px] font-black uppercase tracking-wider rounded bg-amber-500/15 text-amber-400 border border-amber-500/30">
+          4K
         </span>
       </div>
     </div>

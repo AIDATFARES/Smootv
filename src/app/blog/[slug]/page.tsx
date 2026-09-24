@@ -19,11 +19,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | area69iptv' };
+    return { title: 'Smootv - Post Not Found' };
   }
 
+  const title = post.title.startsWith('Smootv')
+    ? post.title
+    : `Smootv - ${post.title}`;
+
   return {
-    title: post.title,
+    title,
     description: post.description,
     alternates: {
       canonical: `/blog/${post.slug}`,
@@ -92,13 +96,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ol: ({ node, ...props }: any) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-[#A7B0C0]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    a: ({ node, ...props }: any) => <a className="text-cyan-400 hover:underline font-bold transition-colors" {...props} />,
+    a: ({ node, ...props }: any) => <a className="text-amber-400 hover:underline font-bold transition-colors" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    blockquote: ({ node, ...props }: any) => <blockquote className="border-l-4 border-cyan-400 pl-4 py-2 mb-6 italic bg-[#080B14] rounded-r text-[#A7B0C0]" {...props} />,
+    blockquote: ({ node, ...props }: any) => <blockquote className="border-l-4 border-amber-400 pl-4 py-2 mb-6 italic bg-[#07080C] rounded-r text-[#A7B0C0]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     table: ({ node, ...props }: any) => <div className="overflow-x-auto mb-8"><table className="w-full text-left border-collapse text-[#A7B0C0]" {...props} /></div>,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    th: ({ node, ...props }: any) => <th className="border-b border-white/10 py-3 px-4 font-bold text-[#F8FAFC] bg-[#080B14]" {...props} />,
+    th: ({ node, ...props }: any) => <th className="border-b border-white/10 py-3 px-4 font-bold text-[#F8FAFC] bg-[#07080C]" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     td: ({ node, ...props }: any) => <td className="border-b border-white/5 py-3 px-4" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -120,14 +124,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         />
       )}
 
-      <Link href="/blog" className="inline-flex items-center text-cyan-400 hover:text-cyan-300 mb-8 transition-colors group font-bold tracking-wider uppercase text-xs">
+      <Link href="/blog" className="inline-flex items-center text-amber-400 hover:text-amber-300 mb-8 transition-colors group font-bold tracking-wider uppercase text-xs">
         <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
         Back to Blog
       </Link>
 
-      <article className="strimo-card p-6 sm:p-12 rounded-3xl">
+      <article className="smootv-card p-6 sm:p-12 rounded-3xl">
         <header className="mb-10 text-center">
-          <span className="inline-block px-3 py-1 bg-cyan-500/10 text-cyan-400 rounded-full text-[10px] font-black tracking-widest uppercase mb-6 border border-cyan-500/20">
+          <span className="inline-block px-3 py-1 bg-amber-500/10 text-amber-400 rounded-full text-[10px] font-black tracking-widest uppercase mb-6 border border-amber-500/25">
             {post.category}
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#F8FAFC] mb-6 leading-tight">
@@ -153,11 +157,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
         <div className="prose prose-lg max-w-none text-[#A7B0C0] 
           prose-headings:text-[#F8FAFC] prose-headings:font-black 
-          prose-a:text-cyan-400 hover:prose-a:underline prose-a:font-bold
+          prose-a:text-amber-400 hover:prose-a:underline prose-a:font-bold
           prose-strong:text-white prose-strong:font-bold
-          prose-code:text-cyan-400 prose-code:bg-[#080B14] prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded
-          prose-pre:bg-[#080B14] prose-pre:border prose-pre:border-white/10
-          prose-blockquote:border-l-cyan-400 prose-blockquote:bg-[#080B14] prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic
+          prose-code:text-amber-400 prose-code:bg-[#07080C] prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded
+          prose-pre:bg-[#07080C] prose-pre:border prose-pre:border-white/10
+          prose-blockquote:border-l-amber-400 prose-blockquote:bg-[#07080C] prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:not-italic
           prose-img:rounded-xl
           prose-th:text-[#F8FAFC] prose-th:border-b prose-th:border-white/10 prose-th:py-3
           prose-td:border-b prose-td:border-white/5 prose-td:py-3"
@@ -195,12 +199,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           .slice(0, 3);
         if (relatedPosts.length === 0) return null;
         return (
-          <section className="mt-16 pt-12 border-t border-white/10">
+          <section className="mt-16 pt-12 border-t border-amber-500/10">
             <h2 className="text-2xl font-black text-[#F8FAFC] mb-8">Related Articles</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {relatedPosts.map((relPost) => (
                 <Link href={`/blog/${relPost.slug}`} key={relPost.id}>
-                  <article className="strimo-card p-0 rounded-2xl overflow-hidden flex flex-col group cursor-pointer hover:-translate-y-1 transition-all duration-300 h-full">
+                  <article className="smootv-card p-0 rounded-2xl overflow-hidden flex flex-col group cursor-pointer hover:-translate-y-1 transition-all duration-300 h-full">
                     <div className="h-40 relative overflow-hidden shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
@@ -210,8 +214,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                       />
                     </div>
                     <div className="p-5 flex flex-col flex-grow">
-                      <span className="text-[10px] text-cyan-400 font-extrabold tracking-widest uppercase mb-2">{relPost.category}</span>
-                      <h3 className="text-sm font-bold text-[#F8FAFC] mb-2 line-clamp-2 group-hover:text-cyan-400 transition-colors leading-snug">
+                      <span className="text-[10px] text-amber-400 font-extrabold tracking-widest uppercase mb-2">{relPost.category}</span>
+                      <h3 className="text-sm font-bold text-[#F8FAFC] mb-2 line-clamp-2 group-hover:text-amber-300 transition-colors leading-snug">
                         {relPost.title}
                       </h3>
                       <p className="text-[10px] text-[#667085] font-bold tracking-widest uppercase mt-auto pt-3 border-t border-white/5">

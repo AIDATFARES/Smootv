@@ -5,7 +5,7 @@ export default function ChannelCategories() {
     {
       icon: Monitor,
       title: "4K ULTRA HD STREAMING",
-      desc: "Enjoy every channel and live event in stunning 4K, Full HD, and HD. area69iptv anti-freeze technology ensures smooth IPTV streaming on any compatible device.",
+      desc: "Enjoy every channel and live event in stunning 4K, Full HD, and HD. Smootv anti-freeze technology ensures smooth IPTV streaming on any compatible device.",
       tags: ["4K UHD", "FULL HD", "ANTI-FREEZE"],
     },
     {
@@ -17,7 +17,7 @@ export default function ChannelCategories() {
     {
       icon: Film,
       title: "200,000+ MOVIES & SERIES",
-      desc: "Explore a massive VOD library featuring the latest movies, hit series, and documentaries—available on demand with your area69iptv subscription.",
+      desc: "Explore a massive VOD library featuring the latest movies, hit series, and documentaries—available on demand with your Smootv subscription.",
       tags: ["MOVIES", "SERIES", "REPLAYS", "UPDATED DAILY"],
     },
   ];
@@ -36,7 +36,7 @@ export default function ChannelCategories() {
     {
       icon: Globe2,
       title: "Works Worldwide",
-      desc: "Enjoy the area69iptv service wherever you are, on any stable internet connection.",
+      desc: "Enjoy the Smootv service wherever you are, on any stable internet connection.",
     },
     {
       icon: ShieldCheck,
@@ -51,13 +51,13 @@ export default function ChannelCategories() {
         
         {/* Heading */}
         <div className="mx-auto mb-12 max-w-4xl text-center">
-          <span className="inline-block py-1.5 px-4 rounded-full bg-[#36a9ff]/10 text-[#36a9ff] font-bold text-[10px] tracking-widest uppercase mb-6 border border-[#36a9ff]/20">
+          <span className="inline-block py-1.5 px-4 rounded-full bg-amber-500/10 text-amber-400 font-bold text-[10px] tracking-widest uppercase mb-6 border border-amber-500/25 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
             Premium Features
           </span>
-          <h2 className="text-3xl md:text-5xl font-black text-black tracking-tight leading-[1.2] animate-fade-up">
+          <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight leading-[1.2] animate-fade-up">
             Everything You Need for the <br className="hidden md:block" />
-            <span className="text-[#36a9ff]">
-              Ultimate area69iptv Experience.
+            <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">
+              Ultimate Smootv Experience.
             </span>
           </h2>
         </div>
@@ -72,13 +72,13 @@ export default function ChannelCategories() {
               return (
                 <div 
                   key={idx} 
-                  className="flex flex-col items-center text-center rounded-xl bg-[#145082] p-6 sm:p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                  className="flex flex-col items-center text-center rounded-xl bg-[#0B0D14] border border-amber-500/20 p-6 sm:p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/50 hover:shadow-[0_0_25px_rgba(245,158,11,0.2)]"
                 >
-                  <div className="mb-4 inline-flex items-center justify-center text-white">
+                  <div className="mb-4 inline-flex items-center justify-center text-amber-400">
                     <Icon className="h-10 w-10" strokeWidth={1.5} />
                   </div>
                   <h3 className="mb-3 text-[19px] font-black text-white">{feature.title}</h3>
-                  <p className="flex-grow text-[13px] leading-relaxed text-white/90 font-medium">
+                  <p className="flex-grow text-[13px] leading-relaxed text-[#A7B0C0] font-medium">
                     {feature.desc}
                   </p>
                 </div>
@@ -93,13 +93,13 @@ export default function ChannelCategories() {
               return (
                 <div 
                   key={idx} 
-                  className="flex flex-col items-center text-center rounded-xl bg-[#145082] p-5 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                  className="flex flex-col items-center text-center rounded-xl bg-[#0B0D14] border border-amber-500/20 p-5 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/50 hover:shadow-[0_0_20px_rgba(245,158,11,0.2)]"
                 >
-                  <div className="mb-3 inline-flex items-center justify-center text-white">
+                  <div className="mb-3 inline-flex items-center justify-center text-amber-400">
                     <Icon className="h-7 w-7" strokeWidth={1.5} />
                   </div>
                   <h3 className="mb-2 text-[15px] font-black text-white">{feature.title}</h3>
-                  <p className="text-[12px] leading-relaxed text-white/90 font-medium">
+                  <p className="text-[12px] leading-relaxed text-[#A7B0C0] font-medium">
                     {feature.desc}
                   </p>
                 </div>

@@ -6,11 +6,11 @@ export default function Contact() {
   return (
     <main className="flex-grow pt-28 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
-        <span className="inline-block py-1.5 px-4 rounded-full bg-cyan-500/10 text-cyan-400 font-bold text-xs tracking-widest uppercase mb-6 border border-cyan-500/20">
-          24/7 AREA69IPTV SUPPORT CENTER
+        <span className="inline-block py-1.5 px-4 rounded-full bg-amber-500/10 text-amber-400 font-bold text-xs tracking-widest uppercase mb-6 border border-amber-500/25 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+          24/7 SMOOTV SUPPORT CENTER
         </span>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-          Get in Touch with <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">area69iptv</span>
+          Get in Touch with <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv</span>
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#A7B0C0]">
           We are here to assist with subscription setup, device configuration, or channel inquiries. Send us a message and our technical team will respond quickly.
@@ -20,21 +20,21 @@ export default function Contact() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         {/* Contact Info Sidebar */}
         <div className="lg:col-span-4 flex flex-col gap-6">
-          <div className="strimo-card p-8 rounded-2xl flex flex-col items-center text-center">
-            <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-4">
+          <div className="smootv-card p-8 rounded-2xl flex flex-col items-center text-center">
+            <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-4 shadow-[0_0_12px_rgba(245,158,11,0.15)]">
               <Mail className="w-6 h-6" />
             </div>
             <h2 className="font-bold text-xl text-white mb-2">Email Support</h2>
             <p className="text-xs text-[#A7B0C0] mb-6">For general inquiries and account assistance.</p>
             <a
-              className="text-cyan-400 font-bold text-sm hover:underline"
-              href="mailto:support@area69iptv4k.shop"
+              className="text-amber-400 font-bold text-sm hover:underline"
+              href="mailto:support@smootv.top"
             >
-              support@area69iptv4k.shop
+              support@smootv.top
             </a>
           </div>
 
-          <div className="strimo-card p-8 rounded-2xl flex flex-col items-center text-center">
+          <div className="smootv-card p-8 rounded-2xl flex flex-col items-center text-center">
             <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4">
               <MessageCircle className="w-6 h-6" />
             </div>
@@ -44,7 +44,7 @@ export default function Contact() {
             </p>
             <a
               className="text-[#25D366] font-bold text-sm hover:underline flex items-center gap-1.5"
-              href="https://wa.me/447882781998?text=Hello,%20I%20need%20support%20for%20area69iptv."
+              href="https://wa.me/447882781998?text=Hello,%20I%20need%20support%20for%20Smootv."
               target="_blank"
               rel="noreferrer"
             >
@@ -52,8 +52,8 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="strimo-card p-8 rounded-2xl flex flex-col items-center text-center">
-            <div className="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-4">
+          <div className="smootv-card p-8 rounded-2xl flex flex-col items-center text-center">
+            <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-4">
               <Clock className="w-6 h-6" />
             </div>
             <h2 className="font-bold text-xl text-white mb-2">Response Time</h2>
@@ -65,7 +65,7 @@ export default function Contact() {
 
         {/* Contact Form */}
         <div className="lg:col-span-8">
-          <div className="strimo-card p-8 md:p-12 rounded-2xl h-full">
+          <div className="smootv-card p-8 md:p-12 rounded-2xl h-full">
             <h2 className="text-2xl font-bold text-white mb-8 border-b border-white/10 pb-6">
               Send Us a Message
             </h2>
@@ -76,7 +76,7 @@ export default function Contact() {
                     Name
                   </label>
                   <input
-                    className="bg-[#080B14] border border-white/10 focus:border-cyan-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all text-sm"
+                    className="bg-[#07080C] border border-white/10 focus:border-amber-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all text-sm"
                     id="name"
                     name="name"
                     placeholder="John Doe"
@@ -88,7 +88,7 @@ export default function Contact() {
                     Email Address
                   </label>
                   <input
-                    className="bg-[#080B14] border border-white/10 focus:border-cyan-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all text-sm"
+                    className="bg-[#07080C] border border-white/10 focus:border-amber-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all text-sm"
                     id="email"
                     name="email"
                     placeholder="john@example.com"
@@ -102,7 +102,7 @@ export default function Contact() {
                   Subject
                 </label>
                 <input
-                  className="bg-[#080B14] border border-white/10 focus:border-cyan-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all text-sm"
+                  className="bg-[#07080C] border border-white/10 focus:border-amber-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all text-sm"
                   id="subject"
                   name="subject"
                   placeholder="How can we help?"
@@ -115,7 +115,7 @@ export default function Contact() {
                   Message
                 </label>
                 <textarea
-                  className="bg-[#080B14] border border-white/10 focus:border-cyan-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all resize-none text-sm"
+                  className="bg-[#07080C] border border-white/10 focus:border-amber-400 rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none transition-all resize-none text-sm"
                   id="message"
                   name="message"
                   placeholder="Describe your question or setup request..."
@@ -125,7 +125,7 @@ export default function Contact() {
 
               <div className="mt-4 flex justify-end">
                 <button
-                  className="btn-primary-strimo px-8 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2"
+                  className="btn-primary-smootv px-8 py-4 text-xs font-extrabold uppercase tracking-wider flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
                   type="submit"
                 >
                   <span>Send Message</span>

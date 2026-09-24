@@ -1,9 +1,9 @@
 import ResellerPageContent from "@/components/reseller/ResellerPageContent";
 
 export const metadata = {
-  title: "Become an IPTV Reseller | Start Your IPTV Business - area69iptv",
+  title: "Smootv - IPTV Reseller Program | High-Margin Xtream Codes Panel",
   description:
-    "Join the area69iptv Reseller Program. High-margin IPTV reseller panel, custom credit packages, sub-reseller management, and 24/7 dedicated support.",
+    "Start your profitable IPTV business with Smootv. Full reseller control panel, non-expiring credits, 99.9% anti-freeze servers & 24/7 dedicated VIP support.",
   alternates: {
     canonical: "/reseller",
   },

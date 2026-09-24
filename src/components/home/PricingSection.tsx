@@ -16,7 +16,7 @@ export default function PricingSection() {
         "1 Device Connection",
         "Instant Email & WhatsApp Setup",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%201-Month%20Plan%20($14.99).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20Smootv%201-Month%20Plan%20($14.99).",
     },
     {
       name: "3 Months",
@@ -33,7 +33,7 @@ export default function PricingSection() {
         "Instant Email & WhatsApp Setup",
         "7-Day Money Back Guarantee",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%203-Month%20Plan%20($35.00).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20Smootv%203-Month%20Plan%20($35.00).",
     },
     {
       name: "6 Months",
@@ -50,7 +50,7 @@ export default function PricingSection() {
         "Instant Email & WhatsApp Setup",
         "VIP Priority Support 24/7",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%206-Month%20Plan%20($49.99).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20Smootv%206-Month%20Plan%20($49.99).",
     },
     {
       name: "1 Year",
@@ -69,7 +69,7 @@ export default function PricingSection() {
         "Free EPG Guide Updates",
         "VIP Priority Support 24/7",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%201-Year%20Most%20Popular%20Plan%20($69.99).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20Smootv%201-Year%20Most%20Popular%20Plan%20($69.99).",
     },
     {
       name: "2 Years",
@@ -87,22 +87,22 @@ export default function PricingSection() {
         "Free Adult Content Switch",
         "Lifetime VIP Technical Support",
       ],
-      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20area69iptv%202-Year%20Best%20Value%20Plan%20($120.00).",
+      whatsappText: "Hello,%20I%20want%20to%20subscribe%20to%20the%20Smootv%202-Year%20Best%20Value%20Plan%20($120.00).",
     },
   ];
 
   return (
-    <section id="pricing" className="py-24 relative z-10 border-t border-white/[0.06] bg-[#080B14]/40">
+    <section id="pricing" className="py-24 relative z-10 border-t border-amber-500/10 bg-[#07080C]/80">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-blue-500/10 text-cyan-400 border border-cyan-500/20 mb-4">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-amber-500/10 text-amber-400 border border-amber-500/25 mb-4 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
             <Zap className="w-3.5 h-3.5" />
-            <span>FLEXIBLE AREA69IPTV SUBSCRIPTIONS</span>
+            <span>FLEXIBLE SMOOTV SUBSCRIPTIONS</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-[#F8FAFC]">
-            Choose Your <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">area69iptv Plan</span>
+            Choose Your <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Smootv Plan</span>
           </h2>
           <p className="text-[#A7B0C0] text-base sm:text-lg mt-4">
             Transparent pricing options with instant automated activation, 50,000+ live channels, 200,000+ VODs, and zero contract commitments.
@@ -116,13 +116,13 @@ export default function PricingSection() {
               key={idx}
               className={`rounded-2xl p-6 flex flex-col justify-between relative transition-all duration-300 ${
                 plan.popular
-                  ? "strimo-featured-card scale-105 z-20"
-                  : "strimo-card"
+                  ? "smootv-featured-card scale-105 z-20"
+                  : "smootv-card"
               }`}
             >
               {plan.popular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full shadow-lg flex items-center gap-1 whitespace-nowrap">
-                  <Sparkles className="w-3 h-3 text-cyan-300" /> MOST POPULAR
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full shadow-[0_0_20px_rgba(245,158,11,0.5)] flex items-center gap-1 whitespace-nowrap">
+                  <Sparkles className="w-3 h-3 text-black" /> MOST POPULAR
                 </div>
               )}
 
@@ -138,7 +138,7 @@ export default function PricingSection() {
                 <ul className="space-y-3 text-xs text-[#A7B0C0]">
                   {plan.features.map((feat, fIdx) => (
                     <li key={fIdx} className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                       <span>{feat}</span>
                     </li>
                   ))}
@@ -152,8 +152,8 @@ export default function PricingSection() {
                   rel="noreferrer"
                   className={`w-full py-3.5 text-xs font-extrabold uppercase tracking-wider rounded-full flex items-center justify-center gap-2 transition-all ${
                     plan.popular
-                      ? "btn-primary-strimo"
-                      : "btn-secondary-strimo"
+                      ? "btn-primary-smootv"
+                      : "btn-secondary-smootv"
                   }`}
                 >
                   <span>Order Now</span>
@@ -165,22 +165,22 @@ export default function PricingSection() {
         </div>
 
         {/* Guarantee Banner */}
-        <div className="mt-16 p-6 rounded-2xl bg-[#0D111B] border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 max-w-4xl mx-auto">
+        <div className="mt-16 p-6 rounded-2xl bg-[#0B0D14] border border-amber-500/20 flex flex-col sm:flex-row items-center justify-between gap-4 max-w-4xl mx-auto shadow-[0_4px_25px_rgba(0,0,0,0.5)]">
           <div className="flex items-center gap-4 text-left">
-            <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+            <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0 shadow-[0_0_15px_rgba(245,158,11,0.2)]">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="text-base font-bold text-white">100% Risk-Free area69iptv Guarantee</h3>
+              <h3 className="text-base font-bold text-white">100% Risk-Free Smootv Guarantee</h3>
               <p className="text-xs text-[#A7B0C0] mt-0.5">Enjoy premium 4K IPTV streaming or request assistance from our 24/7 technical team within 7 days.</p>
             </div>
           </div>
 
           <a
-            href="https://wa.me/447882781998?text=Hello,%20I%20have%20a%20question%20about%20area69iptv%20pricing."
+            href="https://wa.me/447882781998?text=Hello,%20I%20have%20a%20question%20about%20Smootv%20pricing."
             target="_blank"
             rel="noreferrer"
-            className="btn-secondary-strimo px-6 py-2.5 text-xs whitespace-nowrap"
+            className="btn-secondary-smootv px-6 py-2.5 text-xs whitespace-nowrap"
           >
             Have Questions? Chat Us
           </a>

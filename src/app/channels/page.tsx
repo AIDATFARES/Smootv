@@ -97,17 +97,17 @@ export default function ChannelsPage() {
         
         {/* Header Banner */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
-          <div className="inline-flex rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-cyan-400 mb-6">
-            <Radio className="w-3.5 h-3.5 mr-2 text-cyan-400 animate-pulse inline" />
+          <div className="inline-flex rounded-full border border-amber-500/25 bg-amber-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-amber-400 mb-6 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+            <Radio className="w-3.5 h-3.5 mr-2 text-amber-400 animate-pulse inline" />
             <span>50,000+ LIVE CHANNELS · 200,000+ VOD MOVIES</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-[#F8FAFC]">
-            area69iptv <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">Live Channels &amp; VOD Lineup</span>
+            Smootv <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Live Channels &amp; VOD Lineup</span>
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-base sm:text-lg text-[#A7B0C0] leading-relaxed">
-            Explore the complete area69iptv channel lineup featuring live sports, 4K movies, global news, premium entertainment, and on-demand series from over 150+ countries. Check our <Link href="/pricing" className="text-cyan-400 hover:underline font-semibold">subscription plans</Link> or <Link href="/installation" className="text-cyan-400 hover:underline font-semibold">setup guides</Link> to start watching.
+            Explore the complete Smootv channel lineup featuring live sports, 4K movies, global news, premium entertainment, and on-demand series from over 150+ countries. Check our <Link href="/pricing" className="text-amber-400 hover:underline font-semibold">subscription plans</Link> or <Link href="/installation" className="text-amber-400 hover:underline font-semibold">setup guides</Link> to start watching.
           </p>
         </div>
 
@@ -120,27 +120,27 @@ export default function ChannelsPage() {
               return (
                 <article
                   key={category.title}
-                  className="strimo-card p-6 rounded-2xl flex flex-col justify-between relative group"
+                  className="smootv-card p-6 rounded-2xl flex flex-col justify-between relative group"
                 >
                   {category.tag && (
-                    <span className="absolute right-4 top-4 rounded-full bg-cyan-500/10 border border-cyan-500/20 px-2.5 py-0.5 text-[9px] font-black uppercase tracking-wider text-cyan-400">
+                    <span className="absolute right-4 top-4 rounded-full bg-amber-500/10 border border-amber-500/25 px-2.5 py-0.5 text-[9px] font-black uppercase tracking-wider text-amber-400">
                       {category.tag}
                     </span>
                   )}
 
                   <div>
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-yellow-500/20 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 shadow-[0_0_12px_rgba(245,158,11,0.15)]">
                       <Icon className="h-6 w-6" />
                     </div>
 
-                    <h2 className="text-xl font-bold text-[#F8FAFC] tracking-wide mb-4">
+                    <h2 className="text-xl font-bold text-[#F8FAFC] tracking-wide mb-4 group-hover:text-amber-300 transition-colors">
                       {category.title}
                     </h2>
 
                     <ul className="w-full space-y-2.5 mb-6">
                       {category.items.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-xs text-[#A7B0C0] leading-tight">
-                          <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-cyan-400" />
+                          <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-amber-400" />
                           <span>{item}</span>
                         </li>
                       ))}
@@ -149,7 +149,7 @@ export default function ChannelsPage() {
 
                   <div className="w-full pt-4 border-t border-white/5 flex items-center justify-between">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#667085]">Total Available</span>
-                    <span className="text-xs font-bold text-cyan-400">{category.count}</span>
+                    <span className="text-xs font-bold text-amber-400">{category.count}</span>
                   </div>
                 </article>
               );
@@ -161,40 +161,40 @@ export default function ChannelsPage() {
         <ChannelListExplorer />
 
         {/* Marquee Strip */}
-        <section className="mb-16 rounded-2xl overflow-hidden border border-white/5">
+        <section className="mb-16 rounded-2xl overflow-hidden border border-amber-500/10">
           <BrandMarquee />
         </section>
 
         {/* Quick Links Bar */}
-        <div className="mb-16 p-6 rounded-2xl bg-[#0D111B] border border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs font-bold text-[#A7B0C0]">
+        <div className="mb-16 p-6 rounded-2xl bg-[#0B0D14] border border-amber-500/20 flex flex-wrap items-center justify-between gap-4 text-xs font-bold text-[#A7B0C0] shadow-[0_4px_25px_rgba(0,0,0,0.5)]">
           <span>Need help setting up these channels on your device?</span>
           <div className="flex items-center gap-4">
-            <Link href="/installation" className="text-cyan-400 hover:underline">Device Setup Guide →</Link>
-            <Link href="/faq" className="text-cyan-400 hover:underline">Frequently Asked Questions →</Link>
-            <Link href="/reseller" className="text-cyan-400 hover:underline">Reseller Program →</Link>
+            <Link href="/installation" className="text-amber-400 hover:underline">Device Setup Guide →</Link>
+            <Link href="/faq" className="text-amber-400 hover:underline">Frequently Asked Questions →</Link>
+            <Link href="/reseller" className="text-amber-400 hover:underline">Reseller Program →</Link>
           </div>
         </div>
 
         {/* Bottom CTA */}
-        <section className="strimo-card p-8 sm:p-12 text-center rounded-3xl relative overflow-hidden">
+        <section className="smootv-card p-8 sm:p-12 text-center rounded-3xl relative overflow-hidden">
           <div className="relative z-10 max-w-2xl mx-auto">
-            <CirclePlay className="w-10 h-10 text-cyan-400 mx-auto mb-4 animate-bounce" />
-            <h2 className="text-3xl font-black text-[#F8FAFC]">Ready to Experience area69iptv Live TV?</h2>
+            <CirclePlay className="w-10 h-10 text-amber-400 mx-auto mb-4 animate-bounce" />
+            <h2 className="text-3xl font-black text-[#F8FAFC]">Ready to Experience Smootv Live TV?</h2>
             <p className="mt-3 text-[#A7B0C0] text-sm sm:text-base leading-relaxed">
-              Select your preferred area69iptv subscription plan to receive instant activation credentials via email and WhatsApp within seconds.
+              Select your preferred Smootv subscription plan to receive instant activation credentials via email and WhatsApp within seconds.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/pricing"
-                className="btn-primary-strimo px-8 py-3.5 text-xs uppercase tracking-wider font-extrabold"
+                className="btn-primary-smootv px-8 py-3.5 text-xs uppercase tracking-wider font-extrabold shadow-[0_0_20px_rgba(245,158,11,0.3)]"
               >
-                View area69iptv Plans
+                View Smootv Plans
               </Link>
               <a
-                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20area69iptv."
+                href="https://wa.me/447882781998?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Smootv."
                 target="_blank"
                 rel="noreferrer"
-                className="btn-secondary-strimo px-8 py-3.5 text-xs uppercase tracking-wider font-semibold"
+                className="btn-secondary-smootv px-8 py-3.5 text-xs uppercase tracking-wider font-semibold"
               >
                 Get Free Trial via WhatsApp
               </a>

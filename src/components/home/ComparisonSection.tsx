@@ -1,67 +1,68 @@
 import Link from "next/link";
+import { ArrowRight, Check, X } from "lucide-react";
 
 export default function ComparisonSection() {
   const rows = [
-    { feature: "Monthly Cost", fiesta: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
-    { feature: "Live Channels", fiesta: "+50,000 Channels", cable: "200-500", other: "5,000-15,000" },
-    { feature: "4K Streaming", fiesta: "✓ Native 4K", cable: "Limited", other: "Rarely stable" },
-    { feature: "VOD Library", fiesta: "+120,000 Films", cable: "Add-on cost", other: "Varies wildly" },
-    { feature: "Server Uptime", fiesta: "99.9% Guaranteed", cable: "99%", other: "60-85%" },
-    { feature: "Buffering", fiesta: "Zero — Ever", cable: "Rare", other: "Common at peak" },
-    { feature: "Setup Time", fiesta: "5 minutes", cable: "Technician visit", other: "Varies" },
-    { feature: "Contract", fiesta: "No", cable: "12-24 months", other: "Sometimes" },
-    { feature: "Multi-Screen", fiesta: "✓ Included", cable: "Extra cost", other: "Limited" },
-    { feature: "Free Trial", fiesta: "✓ Available", cable: "No", other: "Rare" },
+    { feature: "Monthly Cost", smootv: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
+    { feature: "Live Channels", smootv: "+50,000 Channels", cable: "200-500", other: "5,000-15,000" },
+    { feature: "4K Streaming", smootv: "✓ Native 4K UHD", cable: "Limited 1080p", other: "Rarely stable" },
+    { feature: "VOD Library", smootv: "+200,000 Films & Series", cable: "Add-on paywall", other: "Varies wildly" },
+    { feature: "Server Uptime", smootv: "99.9% Guaranteed", cable: "99%", other: "60-85%" },
+    { feature: "Buffering", smootv: "Zero Anti-Freeze", cable: "Rare", other: "Common at peak" },
+    { feature: "Setup Time", smootv: "Under 3 minutes", cable: "Technician appointment", other: "Varies" },
+    { feature: "Contract Commitments", smootv: "Zero Contracts", cable: "12-24 months lock-in", other: "Sometimes" },
+    { feature: "Multi-Screen Support", smootv: "✓ Included", cable: "Expensive add-on", other: "Extra charge" },
+    { feature: "Money-Back Guarantee", smootv: "✓ 7 Days Risk-Free", cable: "No refunds", other: "Rarely" },
   ];
 
   return (
-    <section className="bg-transparent text-black relative z-10 border-b border-black/10 overflow-hidden py-24">
+    <section className="relative z-10 border-t border-amber-500/10 py-24 bg-[#07080C]/80 overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-6">
         
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
-          <span className="inline-block py-1.5 px-4 rounded-full bg-[#36a9ff]/10 text-[#36a9ff] font-bold text-xs tracking-widest uppercase mb-6 border border-[#36a9ff]/20">
-            IPTV vs Cable TV
-          </span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1]">
-            Why area69iptv is the <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#36a9ff] to-[#2196f3]">
+        <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-amber-500/10 text-amber-400 border border-amber-500/25 mb-4 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+            <span>SMOOTV VS TRADITIONAL CABLE</span>
+          </div>
+          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-[1.15]">
+            Why Smootv is the <br/>
+            <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">
               Ultimate Cable Alternative
             </span>
           </h2>
-          <p className="text-gray-600 text-lg md:text-xl mt-6 leading-relaxed max-w-2xl mx-auto">
-            Discover why thousands of users are cutting the cord and switching to area69iptv. Our premium IPTV service offers an expansive <Link href="/channels" className="font-semibold text-[#36a9ff] hover:text-[#2196f3] hover:underline transition-colors">channel lineup</Link>, stunning 4K streaming quality, and reliable anti-freeze technology—all at a fraction of the cost of traditional cable TV.
+          <p className="text-[#A7B0C0] text-base sm:text-lg mt-4 leading-relaxed max-w-2xl mx-auto">
+            Discover why thousands of households cut the cord and switch to Smootv. Premium IPTV with an expansive <Link href="/channels" className="font-semibold text-amber-400 hover:text-amber-300 hover:underline transition-colors">channel lineup</Link>, stunning 4K streaming quality, and anti-freeze reliability at an unbeatable price.
           </p>
         </div>
 
         {/* Desktop Comparison Table */}
         <div className="hidden md:block relative max-w-5xl mx-auto">
-          <div className="bg-gray-50/40 backdrop-blur-md rounded-3xl border border-[#36a9ff]/30 p-8 pb-10 relative overflow-hidden">
+          <div className="bg-[#0B0D14] rounded-3xl border border-amber-500/20 p-8 pb-10 relative overflow-hidden shadow-[0_4px_30px_rgba(0,0,0,0.5)]">
             
-            {/* Vertical Borders for area69iptv Column */}
-            <div className="absolute top-0 bottom-0 left-[25%] w-[25%] border-x border-[#36a9ff]/30 z-0"></div>
+            {/* Vertical Highlight for Smootv Column */}
+            <div className="absolute top-0 bottom-0 left-[25%] w-[25%] bg-amber-500/[0.03] border-x border-amber-500/25 z-0" />
 
             {/* Table Header */}
             <div className="grid grid-cols-4 gap-4 mb-2 relative z-10">
-              <div className="text-left font-black text-slate-400 uppercase tracking-widest text-xs flex items-center pb-4 pl-4">Features</div>
+              <div className="text-left font-black text-[#A7B0C0] uppercase tracking-widest text-xs flex items-center pb-4 pl-4">Features</div>
               
-              <div className="flex flex-col items-center justify-center bg-[#36a9ff] text-white rounded-2xl py-3 shadow-[0_0_20px_rgba(54,169,255,0.4)] border border-white/40 transform -translate-y-2 relative z-20 mx-2">
-                <span className="text-[8px] uppercase tracking-widest font-black opacity-90 mb-0.5">Premium Choice</span>
-                <span className="text-[22px] font-black tracking-tight leading-none">area69iptv</span>
+              <div className="flex flex-col items-center justify-center bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black rounded-2xl py-3 shadow-[0_0_25px_rgba(245,158,11,0.35)] border border-yellow-200/50 transform -translate-y-2 relative z-20 mx-2">
+                <span className="text-[9px] uppercase tracking-widest font-black opacity-90 mb-0.5">VIP Choice</span>
+                <span className="text-[22px] font-black tracking-tight leading-none">Smootv</span>
               </div>
               
-              <div className="text-center font-black text-slate-400 uppercase tracking-widest text-xs flex items-center justify-center pb-4">Cable / Satellite</div>
-              <div className="text-center font-black text-slate-400 uppercase tracking-widest text-xs flex items-center justify-center pb-4">Other IPTV</div>
+              <div className="text-center font-bold text-[#A7B0C0] uppercase tracking-widest text-xs flex items-center justify-center pb-4">Cable / Satellite</div>
+              <div className="text-center font-bold text-[#A7B0C0] uppercase tracking-widest text-xs flex items-center justify-center pb-4">Other IPTV</div>
             </div>
 
             {/* Table Rows */}
             <div className="relative z-10">
               {rows.map((row, idx) => (
-                <div key={idx} className="grid grid-cols-4 gap-4 py-5 border-b border-[#36a9ff]/20 last:border-0 items-center">
-                  <div className="font-bold text-gray-800 text-sm md:text-[15px] pl-4">{row.feature}</div>
-                  <div className="font-black text-[#36a9ff] text-center text-[15px] md:text-[17px]">{row.fiesta}</div>
-                  <div className="font-medium text-slate-400 text-center text-xs md:text-[13px]">{row.cable}</div>
-                  <div className="font-medium text-slate-400 text-center text-xs md:text-[13px]">{row.other}</div>
+                <div key={idx} className="grid grid-cols-4 gap-4 py-4.5 border-b border-white/[0.06] last:border-0 items-center">
+                  <div className="font-semibold text-[#F8FAFC] text-sm md:text-[15px] pl-4">{row.feature}</div>
+                  <div className="font-black text-amber-400 text-center text-[15px] md:text-[16px]">{row.smootv}</div>
+                  <div className="font-medium text-[#A7B0C0] text-center text-xs md:text-[13px]">{row.cable}</div>
+                  <div className="font-medium text-[#A7B0C0] text-center text-xs md:text-[13px]">{row.other}</div>
                 </div>
               ))}
             </div>
@@ -69,40 +70,41 @@ export default function ComparisonSection() {
         </div>
 
         {/* Mobile Comparison (Cards) */}
-        <div className="md:hidden space-y-8">
-          <div className="bg-gradient-to-br from-[#36a9ff] to-[#2196f3] rounded-3xl p-1 relative shadow-xl">
-            <div className="bg-black/20 text-white rounded-[1.35rem] p-6 backdrop-blur-sm">
-              <h3 className="text-2xl font-black mb-6 text-center">area69iptv</h3>
-              <div className="space-y-4">
+        <div className="md:hidden space-y-6">
+          <div className="bg-gradient-to-br from-amber-500/20 to-yellow-500/10 rounded-2xl p-1 relative border border-amber-500/30">
+            <div className="bg-[#0B0D14] rounded-xl p-5">
+              <h3 className="text-2xl font-black mb-4 text-center bg-gradient-to-r from-amber-200 to-yellow-400 bg-clip-text text-transparent">Smootv (VIP Choice)</h3>
+              <div className="space-y-3.5">
                 {rows.map((row, idx) => (
-                  <div key={idx} className="flex justify-between items-center border-b border-black/10 pb-3 last:border-0 last:pb-0">
-                    <span className="text-black/70 text-sm">{row.feature}</span>
-                    <span className="font-bold text-black text-right">{row.fiesta}</span>
+                  <div key={idx} className="flex justify-between items-center border-b border-white/5 pb-2.5 last:border-0 last:pb-0">
+                    <span className="text-[#A7B0C0] text-xs">{row.feature}</span>
+                    <span className="font-bold text-amber-400 text-xs text-right">{row.smootv}</span>
                   </div>
                 ))}
               </div>
             </div>
           </div>
 
-          <div className="bg-gray-50/80 backdrop-blur-sm rounded-3xl shadow-lg border border-[#36a9ff]/20 p-6">
-            <h3 className="text-xl font-bold mb-6 text-center text-slate-400">Cable / Satellite</h3>
-            <div className="space-y-4">
+          <div className="bg-[#0B0D14] rounded-2xl border border-white/10 p-5">
+            <h3 className="text-lg font-bold mb-4 text-center text-[#A7B0C0]">Cable / Satellite TV</h3>
+            <div className="space-y-3.5">
               {rows.map((row, idx) => (
-                <div key={idx} className="flex justify-between items-center border-b border-black/5 pb-3 last:border-0 last:pb-0">
-                  <span className="text-gray-600 text-sm">{row.feature}</span>
-                  <span className="font-medium text-gray-700 text-right">{row.cable}</span>
+                <div key={idx} className="flex justify-between items-center border-b border-white/5 pb-2.5 last:border-0 last:pb-0">
+                  <span className="text-[#A7B0C0] text-xs">{row.feature}</span>
+                  <span className="font-medium text-white/70 text-xs text-right">{row.cable}</span>
                 </div>
               ))}
             </div>
           </div>
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-14 text-center">
           <Link
             href="/pricing"
-            className="inline-flex items-center justify-center bg-gray-50 border border-[#36a9ff]/30 text-black font-black uppercase text-sm px-10 py-5 rounded-full hover:bg-[#051f33] hover:text-white hover:border-[#36a9ff] hover:shadow-[0_0_20px_rgba(54,169,255,0.4)] transition-all hover:-translate-y-1 gap-2"
+            className="btn-primary-smootv px-9 py-4 text-xs font-black uppercase tracking-widest inline-flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
           >
-            View Plans & Pricing <span aria-hidden="true">&rarr;</span>
+            <span>View Plans &amp; Pricing</span>
+            <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </div>

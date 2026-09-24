@@ -128,15 +128,15 @@ export default function ChannelListExplorer() {
   return (
     <section className="w-full my-16">
       {/* Header & Controls */}
-      <div className="strimo-card p-6 sm:p-10 rounded-3xl mb-10">
+      <div className="smootv-card p-6 sm:p-10 rounded-3xl mb-10">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
           <div>
-            <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-3">
+            <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-amber-500/10 text-amber-400 border border-amber-500/25 mb-3 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
               <Tv className="w-3.5 h-3.5" />
               INTERACTIVE CHANNEL EXPLORER
             </span>
             <h2 className="text-2xl sm:text-3xl font-black text-[#F8FAFC]">
-              Search &amp; Explore <span className="text-cyan-400">Live Channels Lineup</span>
+              Search &amp; Explore <span className="bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent">Live Channels Lineup</span>
             </h2>
             <p className="text-xs sm:text-sm text-[#A7B0C0] mt-1">
               Showing <strong className="text-white">{filteredChannels.length}</strong> channels from our active 50,000+ lineup.
@@ -151,7 +151,7 @@ export default function ChannelListExplorer() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search channel or country..."
-              className="w-full rounded-xl bg-[#080B14] border border-white/10 pl-11 pr-4 py-3 text-xs text-white placeholder-[#667085] focus:border-cyan-400 focus:outline-none transition-all"
+              className="w-full rounded-xl bg-[#07080C] border border-white/10 pl-11 pr-4 py-3 text-xs text-white placeholder-[#667085] focus:border-amber-400 focus:outline-none transition-all"
             />
           </div>
         </div>
@@ -167,8 +167,8 @@ export default function ChannelListExplorer() {
                 onClick={() => setSelectedCategory(cat)}
                 className={`px-4 py-2 rounded-full text-xs font-extrabold uppercase tracking-wider transition-all ${
                   selectedCategory === cat
-                    ? "bg-cyan-400 text-black shadow-[0_0_15px_rgba(6,182,212,0.5)]"
-                    : "bg-[#080B14] border border-white/10 text-[#A7B0C0] hover:text-white hover:border-cyan-400/40"
+                    ? "bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black shadow-[0_0_15px_rgba(245,158,11,0.4)]"
+                    : "bg-[#07080C] border border-white/10 text-[#A7B0C0] hover:text-white hover:border-amber-400/40"
                 }`}
               >
                 {cat}
@@ -177,7 +177,7 @@ export default function ChannelListExplorer() {
           </div>
 
           {/* Quality Filter */}
-          <div className="flex items-center gap-2 bg-[#080B14] p-1 rounded-full border border-white/10">
+          <div className="flex items-center gap-2 bg-[#07080C] p-1 rounded-full border border-white/10">
             <span className="text-[10px] font-bold text-[#667085] uppercase px-3">Resolution:</span>
             {(["All", "4K", "FHD"] as const).map((q) => (
               <button
@@ -185,7 +185,7 @@ export default function ChannelListExplorer() {
                 onClick={() => setQualityFilter(q)}
                 className={`px-3 py-1 rounded-full text-[10px] font-extrabold uppercase transition-all ${
                   qualityFilter === q
-                    ? "bg-blue-500 text-white"
+                    ? "bg-amber-500 text-black"
                     : "text-[#A7B0C0] hover:text-white"
                 }`}
               >
@@ -202,15 +202,15 @@ export default function ChannelListExplorer() {
           {filteredChannels.map((channel) => (
             <div
               key={channel.id}
-              className="bg-[#080B14] border border-white/10 hover:border-cyan-500/40 rounded-2xl p-4 flex items-center justify-between transition-all duration-300 group hover:shadow-[0_0_20px_rgba(6,182,212,0.15)]"
+              className="bg-[#0B0D14] border border-white/10 hover:border-amber-500/40 rounded-2xl p-4 flex items-center justify-between transition-all duration-300 group hover:shadow-[0_0_20px_rgba(245,158,11,0.15)]"
             >
               <div className="flex items-center gap-3.5 overflow-hidden">
-                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0 group-hover:scale-105 transition-transform">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shrink-0 group-hover:scale-105 transition-transform">
                   <Radio className="w-5 h-5" />
                 </div>
                 <div className="overflow-hidden">
                   <div className="flex items-center gap-2">
-                    <h3 className="text-xs font-black text-[#F8FAFC] truncate group-hover:text-cyan-400 transition-colors">
+                    <h3 className="text-xs font-black text-[#F8FAFC] truncate group-hover:text-amber-300 transition-colors">
                       {channel.name}
                     </h3>
                   </div>
@@ -230,8 +230,8 @@ export default function ChannelListExplorer() {
                 <span
                   className={`px-2 py-0.5 rounded text-[9px] font-black uppercase tracking-wider ${
                     channel.quality === "4K"
-                      ? "bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 shadow-[0_0_10px_rgba(6,182,212,0.3)]"
-                      : "bg-blue-500/20 text-blue-400 border border-blue-500/30"
+                      ? "bg-amber-500/20 text-amber-400 border border-amber-500/30 shadow-[0_0_10px_rgba(245,158,11,0.3)]"
+                      : "bg-yellow-500/15 text-yellow-300 border border-yellow-500/25"
                   }`}
                 >
                   {channel.quality} {channel.fps || ""}
@@ -245,7 +245,7 @@ export default function ChannelListExplorer() {
           ))}
         </div>
       ) : (
-        <div className="strimo-card p-12 text-center rounded-3xl">
+        <div className="smootv-card p-12 text-center rounded-3xl">
           <p className="text-sm font-bold text-[#A7B0C0]">
             No channels found matching &quot;{searchQuery}&quot;. Try adjusting your search query or category filter.
           </p>
@@ -254,8 +254,8 @@ export default function ChannelListExplorer() {
 
       {/* Package Breakdown Summary */}
       <div className="mt-16 grid gap-6 md:grid-cols-3">
-        <div className="strimo-card p-6 rounded-2xl">
-          <div className="flex items-center gap-3 mb-3 text-cyan-400">
+        <div className="smootv-card p-6 rounded-2xl">
+          <div className="flex items-center gap-3 mb-3 text-amber-400">
             <Trophy className="w-5 h-5" />
             <h3 className="text-base font-bold text-white">50,000+ Live Channels</h3>
           </div>
@@ -264,8 +264,8 @@ export default function ChannelListExplorer() {
           </p>
         </div>
 
-        <div className="strimo-card p-6 rounded-2xl">
-          <div className="flex items-center gap-3 mb-3 text-purple-400">
+        <div className="smootv-card p-6 rounded-2xl">
+          <div className="flex items-center gap-3 mb-3 text-yellow-400">
             <Film className="w-5 h-5" />
             <h3 className="text-base font-bold text-white">200,000+ VOD Movies &amp; Series</h3>
           </div>
@@ -274,8 +274,8 @@ export default function ChannelListExplorer() {
           </p>
         </div>
 
-        <div className="strimo-card p-6 rounded-2xl">
-          <div className="flex items-center gap-3 mb-3 text-blue-400">
+        <div className="smootv-card p-6 rounded-2xl">
+          <div className="flex items-center gap-3 mb-3 text-amber-300">
             <Globe className="w-5 h-5" />
             <h3 className="text-base font-bold text-white">99.9% Server Uptime</h3>
           </div>
